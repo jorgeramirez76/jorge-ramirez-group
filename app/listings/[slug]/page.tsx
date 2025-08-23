@@ -1,12 +1,13 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import listings from "@/content/listings.json";
+import type { ListingItem } from '@/types/listing';
 import type { Metadata } from "next";
 
 type Props = { params: { slug: string } };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const listing = (listings as any[]).find(l => l.slug === params.slug);
+  const listing = (listings as ListingItem[]).find(l => l.slug === params.slug);
   if (!listing) return { title: "Listing" };
   return {
     title: `${listing.address} | ${listing.price}`,
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function ListingDetail({ params }: Props) {
-  const listing = (listings as any[]).find(l => l.slug === params.slug);
+  const listing = (listings as ListingItem[]).find(l => l.slug === params.slug);
   if (!listing) return notFound();
   return (
     <div className="container py-12">

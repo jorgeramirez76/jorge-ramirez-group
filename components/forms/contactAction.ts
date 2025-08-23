@@ -12,7 +12,7 @@ const schema = z.object({
   _ts: z.string().optional()
 });
 
-export async function contactAction(_: any, formData: FormData) {
+export async function contactAction(_prevState: unknown, formData: FormData) {
   const input = Object.fromEntries(formData) as Record<string, string>;
   const parsed = schema.safeParse(input);
   if (!parsed.success) return { ok: false, error: 'Please check your inputs.' };

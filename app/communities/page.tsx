@@ -1,19 +1,13 @@
-export const revalidate = 3600;
+import { COUNTIES } from '@/content/communities.data';
 
-const counties = [
-  { slug: 'union-county', name: 'Union County' },
-  { slug: 'morris-county', name: 'Morris County' },
-  { slug: 'essex-county', name: 'Essex County' },
-  { slug: 'hudson-county', name: 'Hudson County' },
-  { slug: 'middlesex-county', name: 'Middlesex County' }
-];
+export const revalidate = 3600;
 
 export default function Communities() {
   return (
     <main className="container">
       <h1>Communities</h1>
       <ul className="grid">
-        {counties.map((c) => (
+        {COUNTIES.map((c) => (
           <li key={c.slug}>
             <a className="tile" href={`/communities/${c.slug}`}>{c.name}</a>
           </li>
