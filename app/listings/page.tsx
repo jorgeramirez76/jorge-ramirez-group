@@ -7,19 +7,19 @@ export const revalidate = 300; // 5 minutes
 export default async function ListingsPage() {
   const listings = await getIDX().featured(12).catch(() => []);
   return (
-    <main className="wrap">
+    <main className="max-w-[1120px] mx-auto px-5 py-8">
       <h1>Featured Listings</h1>
       {!listings?.length ? (
         <p>
           No featured listings yet. <a href="/contact?subject=Off-Market">Ask about off-market homes</a>.
         </p>
       ) : (
-        <ul className="grid">
+        <ul className="grid [grid-template-columns:repeat(auto-fill,minmax(320px,1fr))] gap-5">
           {listings.map((l) => (
-            <li key={l.id} className="card">
-              <a href={l.url ?? `/contact?interest=${encodeURIComponent(l.address)}`}>
+            <li key={l.id} className="border border-gray-200 rounded-lg overflow-hidden bg-white">
+              <a href={l.url ?? `/contact?interest=${encodeURIComponent(l.address)}`}> 
                 <Image src={l.image} alt={`${l.address}, ${l.city}`} width={800} height={533} />
-                <div className="meta">
+                <div className="py-3 px-3.5">
                   <h2>
                     {l.address}, {l.city}, {l.state} {l.zip}
                   </h2>
@@ -33,27 +33,6 @@ export default async function ListingsPage() {
           ))}
         </ul>
       )}
-      <style jsx>{`
-        .wrap {
-          max-width: 1120px;
-          margin: 0 auto;
-          padding: 32px 20px;
-        }
-        .grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-          gap: 20px;
-        }
-        .card {
-          border: 1px solid #eee;
-          border-radius: 8px;
-          overflow: hidden;
-          background: #fff;
-        }
-        .meta {
-          padding: 12px 14px;
-        }
-      `}</style>
     </main>
   );
 }
