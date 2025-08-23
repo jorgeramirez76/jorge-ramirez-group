@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "123-oak-ln-summit",
+    "address": "123 Oak Ln, Summit, NJ",
+    "town": "Summit",
+    "price": 1495000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3600,
+    "description": "Refined colonial with gourmet kitchen, sunlit great room, and manicured grounds minutes from town and train.",
+    "images": [
+      "/images/listings/listing1.webp"
+    ]
+  },
+  {
+    "slug": "45-meadow-way-short-hills",
+    "address": "45 Meadow Way, Short Hills, NJ",
+    "town": "Short Hills",
+    "price": 2890000,
+    "beds": 6,
+    "baths": 6,
+    "sqft": 5200,
+    "description": "Modern luxury new construction with soaring ceilings, designer finishes, and walk-to-train convenience.",
+    "images": [
+      "/images/listings/listing2.webp"
+    ]
+  },
+  {
+    "slug": "18-ridge-rd-chatham",
+    "address": "18 Ridge Rd, Chatham, NJ",
+    "town": "Chatham",
+    "price": 1125000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2800,
+    "description": "Impeccably updated, private yard, and a quiet street close to parks and schools.",
+    "images": [
+      "/images/listings/listing3.webp"
+    ]
+  }
+]

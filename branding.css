@@ -1,0 +1,6 @@
+/* Tailwind tokens are defined in tailwind.config.ts; extend here if needed */
+:root {
+  --brand-black: #0A0A0A;
+  --brand-white: #FFFFFF;
+  --brand-red: #E3252C;
+}

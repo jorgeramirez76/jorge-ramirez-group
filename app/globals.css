@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Branding tokens (can be extended in a separate branding.css if desired) */
+:root {
+  --brand-black: #0A0A0A;
+  --brand-white: #FFFFFF;
+  --brand-red: #E3252C;
+}
+
+/* Smooth scroll */
+html { scroll-behavior: smooth; }
+
+/* Luxury typography feel */
+h1, h2, h3 { @apply font-serif; }
+p, li { @apply text-neutral-800; }
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--brand-red);
+  outline-offset: 2px;
+}
+
+/* Container utility */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
