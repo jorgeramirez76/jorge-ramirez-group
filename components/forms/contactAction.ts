@@ -12,15 +12,14 @@ const schema = z.object({
   _ts: z.string().optional()
 });
 
-export async function contactAction(_: any, formData: FormData) {
+export async function contactAction(formData: FormData) {
   const input = Object.fromEntries(formData) as Record<string, string>;
   const parsed = schema.safeParse(input);
-  if (!parsed.success) return { ok: false, error: 'Please check your inputs.' };
+  if (!parsed.success) return;
 
   // anti-spam
-  if (parsed.data._hp) return { ok: true, error: null };
-  if (!parsed.data._ts || Date.now() - Number(parsed.data._ts) < 2000)
-    return { ok: false, error: 'Slow down and try again.' };
+  if (parsed.data._hp) return;
+  if (!parsed.data._ts || Date.now() - Number(parsed.data._ts) < 2000) return;
 
   // forward to CRM (optional)
   try {
@@ -31,8 +30,7 @@ export async function contactAction(_: any, formData: FormData) {
         body: JSON.stringify({ ...parsed.data, ts: new Date().toISOString() })
       });
     }
-    return { ok: true, error: null };
   } catch {
-    return { ok: false, error: 'Submission failed. Please call 908-230-7844.' };
+    // ignore network errors
   }
 }

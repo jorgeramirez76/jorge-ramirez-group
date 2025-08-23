@@ -1,0 +1,139 @@
+{
+  "counties": [
+    {
+      "slug": "union-county",
+      "name": "Union County",
+      "cities": [
+        {
+          "slug": "westfield-nj",
+          "name": "Westfield",
+          "schools": "Westfield Public Schools earn an A+ from Niche and rank among New Jersey's top 20 districts.",
+          "transportation": "NJ Transit's Raritan Valley Line serves Westfield Station.",
+          "commute": "Typical commute: ride to Newark Penn and transfer to a Midtown Direct train, reaching NYC in about 50 minutes."
+        },
+        {
+          "slug": "summit-nj",
+          "name": "Summit",
+          "schools": "Summit Public Schools consistently place within the state's top 20.",
+          "transportation": "Midtown Direct service on the Morris & Essex Line runs through Summit Station.",
+          "commute": "Residents board the M&E train for a 40-minute trip straight to NYC Penn Station."
+        },
+        {
+          "slug": "elizabeth-nj",
+          "name": "Elizabeth",
+          "schools": "Elizabeth's magnet academies such as Elizabeth High School rank within New Jersey's top 50.",
+          "transportation": "The Northeast Corridor Line and extensive NJ Transit buses serve the city.",
+          "commute": "Commuters take a direct Northeast Corridor train from Elizabeth Station to NYC Penn in about 30 minutes."
+        }
+      ]
+    },
+    {
+      "slug": "morris-county",
+      "name": "Morris County",
+      "cities": [
+        {
+          "slug": "morristown-nj",
+          "name": "Morristown",
+          "schools": "Morris School District holds an A rating, with Morristown High in the state's upper third.",
+          "transportation": "Midtown Direct trains on the Morris & Essex Line serve Morristown Station.",
+          "commute": "The ride to NYC Penn averages just under an hour."
+        },
+        {
+          "slug": "madison-nj",
+          "name": "Madison",
+          "schools": "Madison Public Schools frequently rank in New Jersey's top 50.",
+          "transportation": "Madison Station sits on the Morris & Essex Midtown Direct line.",
+          "commute": "Trains reach NYC in approximately 55 minutes door to door."
+        },
+        {
+          "slug": "chatham-nj",
+          "name": "Chatham",
+          "schools": "The School District of the Chathams ranks top 10 statewide.",
+          "transportation": "Chatham Station is on the Morris & Essex Line with direct Midtown service.",
+          "commute": "Travelers reach NYC Penn in about 50 minutes."
+        }
+      ]
+    },
+    {
+      "slug": "essex-county",
+      "name": "Essex County",
+      "cities": [
+        {
+          "slug": "montclair-nj",
+          "name": "Montclair",
+          "schools": "Montclair Public Schools carry an A rating and renowned magnet system.",
+          "transportation": "Montclair-Boonton Line provides Midtown Direct rail from several local stations.",
+          "commute": "Rush-hour trains reach NYC Penn in roughly 40 minutes."
+        },
+        {
+          "slug": "millburn-nj",
+          "name": "Millburn",
+          "schools": "Millburn Township Schools often claim the #1 spot in New Jersey.",
+          "transportation": "Short Hills and Millburn stations sit on the Morris & Essex Midtown Direct line.",
+          "commute": "Direct trains arrive in NYC Penn in about 40 minutes."
+        },
+        {
+          "slug": "newark-nj",
+          "name": "Newark",
+          "schools": "Newark's magnet programs like Science Park High rank among the state's best.",
+          "transportation": "NJ Transit, PATH, and Amtrak all converge at Newark Penn Station.",
+          "commute": "A PATH or NJ Transit train carries commuters to Manhattan in around 20 minutes."
+        }
+      ]
+    },
+    {
+      "slug": "hudson-county",
+      "name": "Hudson County",
+      "cities": [
+        {
+          "slug": "jersey-city-nj",
+          "name": "Jersey City",
+          "schools": "Jersey City schools include top-ranked McNair Academic High (Top 10 in NJ).",
+          "transportation": "Extensive PATH, light rail, and ferry options serve the city.",
+          "commute": "A PATH ride from Grove Street to World Trade Center takes about 15 minutes."
+        },
+        {
+          "slug": "hoboken-nj",
+          "name": "Hoboken",
+          "schools": "Hoboken's district and charter schools earn B+ to A grades with rising test scores.",
+          "transportation": "Hoboken Terminal offers PATH, NJ Transit rail, and ferry service.",
+          "commute": "Most commuters take the PATH to midtown or lower Manhattan in roughly 15 minutes."
+        },
+        {
+          "slug": "weehawken-nj",
+          "name": "Weehawken",
+          "schools": "Weehawken Township Schools receive A ratings in state comparisons.",
+          "transportation": "NJ Transit buses and NY Waterway ferries depart from Port Imperial.",
+          "commute": "Commuters reach midtown Manhattan in 10–20 minutes via bus or ferry."
+        }
+      ]
+    },
+    {
+      "slug": "middlesex-county",
+      "name": "Middlesex County",
+      "cities": [
+        {
+          "slug": "new-brunswick-nj",
+          "name": "New Brunswick",
+          "schools": "New Brunswick's magnet schools, including Health Sciences, post strong statewide rankings.",
+          "transportation": "The Northeast Corridor Line and multiple bus routes serve the city.",
+          "commute": "Riders take a direct train to NYC Penn in about 50 minutes."
+        },
+        {
+          "slug": "edison-nj",
+          "name": "Edison",
+          "schools": "Edison Township Public Schools earn an A rating and sit in the state's top 50.",
+          "transportation": "Edison and Metropark stations lie on the Northeast Corridor Line.",
+          "commute": "From Metropark, trains reach NYC Penn in roughly 45 minutes."
+        },
+        {
+          "slug": "woodbridge-nj",
+          "name": "Woodbridge",
+          "schools": "Woodbridge Township Schools maintain above-average scores across the district.",
+          "transportation": "Metropark and Woodbridge stations provide Northeast Corridor and North Jersey Coast Line access.",
+          "commute": "Commuters typically board at Metropark for a 40-minute ride to NYC Penn."
+        }
+      ]
+    }
+  ]
+}
