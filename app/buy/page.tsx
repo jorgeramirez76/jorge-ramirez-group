@@ -4,7 +4,7 @@ export const revalidate = 86400;
 
 export default function BuyPage() {
   return (
-    <main className="container">
+    <main className="container max-w-[900px] py-8 px-5">
       <h1>Buy Confidently in Union • Morris • Essex • Hudson • Middlesex</h1>
 
       <section>
@@ -37,15 +37,10 @@ export default function BuyPage() {
       />
 
       <p>
-        <a className="cta" href="/contact?subject=Buyer%20Consultation">
+        <a className="inline-block px-4 py-3 rounded-md bg-[#cc0000] text-white" href="/contact?subject=Buyer%20Consultation">
           Start Your Purchase Plan
         </a>
       </p>
-
-      <style jsx>{`
-        .container { max-width: 900px; margin: 0 auto; padding: 32px 20px; }
-        .cta { display: inline-block; padding: 12px 16px; background: #cc0000; color: #fff; border-radius: 6px; }
-      `}</style>
     </main>
   );
 }
