@@ -4,8 +4,8 @@ export const revalidate = 86400;
 
 export default function SellPage() {
   return (
-    <main className="container">
-      <h1>Sell for More, with Less Friction</h1>
+    <main className="max-w-[900px] mx-auto p-8">
+      <h1 className="text-3xl font-bold mb-6">Sell for More, with Less Friction</h1>
 
       <section>
         <h2>Pricing Strategy</h2>
@@ -57,15 +57,13 @@ export default function SellPage() {
       />
 
       <p>
-        <a className="cta" href="/contact?subject=Seller%20Consultation">
+        <a
+          className="inline-block px-4 py-3 bg-[#cc0000] text-white rounded-md"
+          href="/contact?subject=Seller%20Consultation"
+        >
           Request a Seller Consultation
         </a>
       </p>
-
-      <style jsx>{`
-        .container { max-width: 900px; margin: 0 auto; padding: 32px 20px; }
-        .cta { display: inline-block; padding: 12px 16px; background: #cc0000; color: #fff; border-radius: 6px; }
-      `}</style>
     </main>
   );
 }

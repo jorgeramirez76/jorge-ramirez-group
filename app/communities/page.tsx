@@ -10,20 +10,20 @@ const counties = [
 
 export default function Communities() {
   return (
-    <main className="container">
-      <h1>Communities</h1>
-      <ul className="grid">
+    <main className="max-w-[1120px] mx-auto p-8">
+      <h1 className="text-3xl font-bold mb-6">Communities</h1>
+      <ul className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-4">
         {counties.map((c) => (
           <li key={c.slug}>
-            <a className="tile" href={`/communities/${c.slug}`}>{c.name}</a>
+            <a
+              className="block p-7 border rounded-lg bg-white"
+              href={`/communities/${c.slug}`}
+            >
+              {c.name}
+            </a>
           </li>
         ))}
       </ul>
-      <style jsx>{`
-        .container { max-width: 1120px; margin: 0 auto; padding: 32px 20px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
-        .tile { display: block; padding: 28px; border: 1px solid #eee; border-radius: 8px; background: #fff; }
-      `}</style>
     </main>
   );
 }

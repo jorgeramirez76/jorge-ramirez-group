@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Section } from "@/components/section";
 import { ListingGrid } from "@/components/listing-grid";
@@ -20,9 +19,9 @@ export default function HomePage() {
           <Image src="/images/hero.webp" alt="Luxury NJ real estate" fill priority className="object-cover opacity-70" />
         </div>
         <div className="container relative py-28 lg:py-40">
-          <motion.h1 initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{duration:0.6}} className="font-serif text-4xl md:text-6xl max-w-3xl">
+          <h1 className="font-serif text-4xl md:text-6xl max-w-3xl">
             Sell for More. Buy with Confidence.
-          </motion.h1>
+          </h1>
           <p className="mt-6 max-w-2xl text-lg text-neutral-200">
             The Jorge Ramirez Group delivers concierge-level service and market intelligence across Central & Northern New Jersey.
           </p>
