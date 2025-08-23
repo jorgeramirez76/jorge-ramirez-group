@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 export function SiteFooter() {
   return (
@@ -6,8 +7,15 @@ export function SiteFooter() {
       <div className="container py-10 grid md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-3">
-  <img src="/images/logo/logo-primary.png" alt="The Jorge Ramirez Group" className="h-8 w-auto" />
-</div>
+            <Image
+              src="/images/logo/logo-primary.png"
+              alt="The Jorge Ramirez Group"
+              width={160}
+              height={32}
+              className="h-8 w-auto"
+              priority
+            />
+          </div>
           <p className="mt-2 text-sm text-neutral-600">{siteConfig.tagline}</p>
           <p className="mt-4 text-sm">Keller Williams Premier Properties, Lic. # 1754604</p>
           <p className="mt-2 text-sm">488 Springfield Ave, Summit, NJ 07901</p>

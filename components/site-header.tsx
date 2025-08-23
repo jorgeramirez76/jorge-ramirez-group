@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
@@ -7,7 +8,14 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
       <div className="container h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3" aria-label="The Jorge Ramirez Group">
-          <img src="/images/logo/logo-primary.png" alt="The Jorge Ramirez Group" className="h-7 w-auto" />
+          <Image
+            src="/images/logo/logo-primary.png"
+            alt="The Jorge Ramirez Group"
+            width={140}
+            height={28}
+            className="h-7 w-auto"
+            priority
+          />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/buy">Buy</Link>

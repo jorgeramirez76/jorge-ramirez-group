@@ -12,7 +12,18 @@ export const agentSchema = (siteUrl: string) => ({
     postalCode: '07901',
     addressCountry: 'US'
   },
-  areaServed: ['Union County', 'Morris County', 'Essex County', 'Hudson County', 'Middlesex County']
+  areaServed: [
+    'Summit, NJ',
+    'Short Hills, NJ',
+    'Chatham, NJ',
+    'Union County',
+    'Morris County',
+    'Essex County',
+    'Hudson County',
+    'Middlesex County',
+    'Northern New Jersey',
+    'Central New Jersey'
+  ]
 });
 
 export const breadcrumb = (items: { name: string; url: string }[]) => ({

@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -7,8 +8,6 @@ import { ListingGrid } from "@/components/listing-grid";
 import { Testimonials } from "@/components/testimonials";
 import { siteConfig } from "@/lib/site";
 import { JsonLdOrganization } from "@/components/seo/jsonld-organization";
-
-export const revalidate = 3600;
 
 export default function HomePage() {
   return (

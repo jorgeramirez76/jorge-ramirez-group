@@ -7,7 +7,5 @@ module.exports = {
       { protocol: 'https', hostname: '**.your-idx-cdn.com' }
     ]
   },
-  experimental: {
-    optimizeCss: true
-  }
+  experimental: {}
 };
