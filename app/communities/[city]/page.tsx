@@ -22,7 +22,7 @@ export default function CityPage({ params }: { params: { city: string } }) {
   const data = cities[params.city];
   if (!data) return notFound();
   return (
-    <main className="container">
+    <main className="mx-auto max-w-[900px] px-5 py-8">
       <h1>{data.name}</h1>
       <section>
         <h2>Overview</h2>
@@ -34,14 +34,13 @@ export default function CityPage({ params }: { params: { city: string } }) {
       </section>
       <KeyFacts items={data.facts} />
       <p>
-        <a className="cta" href={`/contact?subject=${encodeURIComponent(`Moving to ${data.name}`)}`}>
+        <a
+          className="inline-block rounded-md bg-[#cc0000] px-4 py-3 text-white"
+          href={`/contact?subject=${encodeURIComponent(`Moving to ${data.name}`)}`}
+        >
           Ask About {data.name} Housing
         </a>
       </p>
-      <style jsx>{`
-        .container { max-width: 900px; margin: 0 auto; padding: 32px 20px; }
-        .cta { display: inline-block; padding: 12px 16px; background: #cc0000; color: #fff; border-radius: 6px; }
-      `}</style>
     </main>
   );
 }
