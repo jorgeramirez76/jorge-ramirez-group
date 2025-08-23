@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { agentSchema } from '@/lib/seo/schema';
+import { SiteHeader } from '@/components/site-header';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={inter.className}>
+        <SiteHeader />
         {children}
         <script
           type="application/ld+json"

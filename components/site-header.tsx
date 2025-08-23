@@ -13,6 +13,7 @@ export function SiteHeader() {
           <Link href="/buy">Buy</Link>
           <Link href="/sell">Sell</Link>
           <Link href="/communities">Communities</Link>
+          <Link href="/commuting">Commuting</Link>
           <Link href="/listings">Listings</Link>
           <Link href="/about">About</Link>
           <Link href="/resources">Resources</Link>
@@ -23,7 +24,7 @@ export function SiteHeader() {
       {open && (
         <div className="md:hidden border-t bg-white">
           <div className="container py-3 flex flex-col gap-2">
-            {["buy","sell","communities","listings","about","resources","contact"].map(p=> (
+            {["buy","sell","communities","commuting","listings","about","resources","contact"].map(p=> (
               <Link key={p} href={`/${p}`} onClick={()=>setOpen(false)} className="py-2">{p[0].toUpperCase()+p.slice(1)}</Link>
             ))}
           </div>
