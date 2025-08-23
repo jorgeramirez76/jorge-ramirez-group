@@ -1,14 +1,15 @@
 'use client';
-import { useActionState, useEffect } from 'react';
+import { useEffect } from 'react';
+import { useFormState, useFormStatus } from 'react-dom';
 import { contactAction } from './contactAction';
 
 export default function ContactForm({ subject = 'General Inquiry' }: { subject?: string }) {
-  const [state, action, pending] = useActionState(contactAction, { ok: false, error: null as string | null });
+  const [state, formAction] = useFormState(contactAction, { ok: false, error: null as string | null });
   useEffect(() => {
     if (state.ok) (document.getElementById('contact-form') as HTMLFormElement)?.reset();
   }, [state.ok]);
   return (
-    <form id="contact-form" action={action} className="contact">
+    <form id="contact-form" action={formAction} className="contact">
       <input name="subject" defaultValue={subject} type="hidden" />
       <input type="text" name="_hp" tabIndex={-1} autoComplete="off" style={{ display: 'none' }} />
       <input type="hidden" name="_ts" value={`${Date.now()}`} />
@@ -36,7 +37,7 @@ export default function ContactForm({ subject = 'General Inquiry' }: { subject?:
         Message
         <textarea name="message" required rows={5} maxLength={2000} />
       </label>
-      <button disabled={pending}>{pending ? 'Sending…' : 'Send'}</button>
+      <SubmitButton />
       {state.error && <p className="err">{state.error}</p>}
       {state.ok && <p className="ok">Thanks! We’ll reach out shortly.</p>}
       <style jsx>{`
@@ -71,4 +72,9 @@ export default function ContactForm({ subject = 'General Inquiry' }: { subject?:
       `}</style>
     </form>
   );
+}
+
+function SubmitButton() {
+  const { pending } = useFormStatus();
+  return <button disabled={pending}>{pending ? 'Sending…' : 'Send'}</button>;
 }

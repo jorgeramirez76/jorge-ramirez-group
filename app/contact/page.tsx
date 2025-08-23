@@ -4,24 +4,17 @@ export const revalidate = 86400;
 
 export default function ContactPage() {
   return (
-    <main className="container">
-      <h1>Contact The Jorge Ramirez Group</h1>
+    <main className="max-w-[900px] mx-auto p-8">
+      <h1 className="text-3xl font-bold mb-4">Contact The Jorge Ramirez Group</h1>
       <p>
         Call <a href="tel:+19082307844">908-230-7844</a> or send us a message below.
       </p>
       <ContactForm />
-      <address>
+      <address className="mt-6 not-italic">
         Keller Williams Premier Properties
         <br />
         488 Springfield Ave, Summit, NJ 07901
       </address>
-      <style jsx>{`
-        .container {
-          max-width: 900px;
-          margin: 0 auto;
-          padding: 32px 20px;
-        }
-      `}</style>
     </main>
   );
 }
