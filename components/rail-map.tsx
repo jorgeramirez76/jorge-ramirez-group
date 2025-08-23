@@ -7,6 +7,7 @@ export function RailMap() {
   return (
     <div className="rounded-2xl overflow-hidden border">
       <svg viewBox="0 0 1600 1000" className="w-full h-auto">
+        <image href="/images/commuter-map.svg" width={1600} height={1000} />
         {railLines.map((line) => (
           <path
             key={line.id}
