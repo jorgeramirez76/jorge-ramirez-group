@@ -5,14 +5,14 @@ import { Section } from "@/components/section";
 import { ListingGrid } from "@/components/listing-grid";
 import { Testimonials } from "@/components/testimonials";
 import { siteConfig } from "@/lib/site";
-import { JsonLdOrganization } from "@/components/seo/jsonld-organization";
+import PageSeo from "@/seo/components/page-seo/home";
 
 export const revalidate = 3600;
 
 export default function HomePage() {
   return (
     <>
-      <JsonLdOrganization />
+      <PageSeo />
       <section className="relative bg-black text-white">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black/40" />
