@@ -6,13 +6,13 @@ type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
   size?: 'sm' | 'md' | 'lg';
 };
 export function Button({ className, variant="primary", size="md", ...props }: Props) {
-  const base = "rounded-2xl px-5 py-3 transition";
+  const base = "rounded-2xl px-5 py-3 transition bg-black text-white border border-white hover:opacity-90";
   const variants = {
-    primary: "bg-brand-black text-white hover:opacity-90",
-    secondary: "bg-brand-red text-white hover:opacity-95",
-    outline: "border border-black text-black hover:bg-black hover:text-white",
-    outlineLight: "border border-white text-white hover:bg-white hover:text-black",
-    ghost: "text-black hover:bg-neutral-100"
+    primary: "",
+    secondary: "",
+    outline: "",
+    outlineLight: "",
+    ghost: ""
   };
   const sizes = { sm: "text-sm", md: "text-base", lg: "text-lg" };
   return <button className={clsx(base, variants[variant], sizes[size], className)} {...props} />;

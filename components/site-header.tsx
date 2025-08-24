@@ -23,9 +23,9 @@ export function SiteHeader() {
           <Link href="/listings">Listings</Link>
           <Link href="/about">About</Link>
           <Link href="/resources">Resources</Link>
-          <Link href="/contact" className="rounded-full bg-black text-white px-4 py-2">Consultation</Link>
+          <Link href="/contact" className="rounded-full bg-black text-white border border-white px-4 py-2">Consultation</Link>
         </nav>
-        <button className="md:hidden" aria-label="Menu" onClick={()=>setOpen(v=>!v)}>☰</button>
+        <button className="md:hidden bg-black text-white border border-white rounded-2xl px-4 py-2" aria-label="Menu" onClick={()=>setOpen(v=>!v)}>☰</button>
       </div>
       {open && (
         <div className="md:hidden border-t bg-white">

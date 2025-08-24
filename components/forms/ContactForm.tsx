@@ -5,7 +5,7 @@ import { contactAction } from "./contactAction";
 
 function SubmitButton() {
   const { pending } = useFormStatus();
-  return <button disabled={pending}>{pending ? "Sending…" : "Send"}</button>;
+  return <button className="bg-black text-white border border-white px-5 py-3 rounded-2xl" disabled={pending}>{pending ? "Sending…" : "Send"}</button>;
 }
 
 export default function ContactForm({ subject = "General Inquiry" }: { subject?: string }) {
@@ -65,14 +65,6 @@ export default function ContactForm({ subject = "General Inquiry" }: { subject?:
           padding: 10px;
           border: 1px solid #ddd;
           border-radius: 6px;
-        }
-        button {
-          padding: 12px 16px;
-          border: 0;
-          border-radius: 6px;
-          background: #cc0000;
-          color: #fff;
-          cursor: pointer;
         }
         .ok { color: green; }
         .err { color: #b00020; }

@@ -33,7 +33,7 @@ export default function ListingDetail({ params }: Props) {
             <input type="hidden" name="interest" value={listing.address} />
             <input name="name" required placeholder="Full name" className="w-full border rounded-2xl p-3" />
             <input name="email" required type="email" placeholder="Email" className="w-full border rounded-2xl p-3" />
-            <button className="bg-black text-white px-5 py-3 rounded-2xl">Request a Private Tour</button>
+            <button className="bg-black text-white border border-white px-5 py-3 rounded-2xl">Request a Private Tour</button>
           </form>
         </div>
       </div>
