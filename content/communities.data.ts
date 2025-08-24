@@ -1051,5 +1051,122 @@ export const TOWNS: Town[] = [
       'Edison Township Public Schools earn praise for STEM initiatives, Advanced Placement offerings, and competitive clubs.',
     commute:
       'Northeast Corridor trains from Edison Station reach New York Penn Station in about 45 to 60 minutes, and commuters can also use park-and-ride buses or the New Jersey Turnpike.'
+  },
+  {
+    slug: 'carteret',
+    name: 'Carteret',
+    county: 'middlesex-county',
+    summary:
+      'Industrial-riverfront borough with new waterfront redevelopment and strong highway access.',
+    description:
+      'Carteret is a borough on the Arthur Kill waterfront, historically industrial but now seeing new residential and cultural redevelopment. Its location near the New Jersey Turnpike, Routes 1&9, and the Goethals Bridge makes it highly accessible. Housing ranges from older single-family homes and duplexes to newer townhomes and apartments. Carteret Park and a growing waterfront walkway provide green space and views. A performing arts center and community events highlight the town\'s civic pride. Redevelopment aims to balance industry with improved quality of life.',
+    schools:
+      'Carteret Public Schools offer AP, CTE, and STEM programs across multiple elementary and middle schools.',
+    commute:
+      'NJ Transit buses reach Port Authority in about 40 to 60 minutes, and nearby Rahway or Woodbridge stations provide trains to New York in roughly 45 to 65 minutes.'
+  },
+  {
+    slug: 'cranbury',
+    name: 'Cranbury',
+    county: 'middlesex-county',
+    summary:
+      'Historic rural-suburban township with colonial charm and preserved farmland.',
+    description:
+      'Cranbury maintains a historic small-town core lined with 18th- and 19th-century buildings. Large swaths of preserved farmland keep its rural character despite proximity to Route 130 and the Turnpike. Housing ranges from historic homes to newer subdivisions and large estates. Community events and open space give the township a close-knit feel. Residents appreciate the quiet streets and access to nearby corporate campuses. Its regional school arrangement with Princeton adds to its appeal.',
+    schools:
+      'Cranbury School serves K–8 locally, and high school students attend top-ranked Princeton High School.',
+    commute:
+      'Residents drive to Princeton Junction for Northeast Corridor trains reaching New York in about 65 to 80 minutes and Newark in roughly 45 to 60 minutes.'
+  },
+  {
+    slug: 'east-brunswick',
+    name: 'East Brunswick',
+    county: 'middlesex-county',
+    summary:
+      'Large suburban township with top-rated schools, diverse housing, and major highways.',
+    description:
+      'East Brunswick is a major Middlesex suburb with extensive shopping along Route 18 and strong highway access. The township offers housing from affordable condos to large colonials and custom homes. Recreation includes the Brunswick Square Mall and Crystal Springs Family Waterpark. Township programs and cultural events foster a strong community identity. Parks and open space balance the busy commercial corridors. Its schools and municipal services are highly regarded.',
+    schools:
+      'East Brunswick Public Schools consistently rank among New Jersey\'s best, with East Brunswick High School noted for STEM, arts, and AP programs.',
+    commute:
+      'Suburban Transit and Coach USA buses from Route 18 park-and-rides reach Manhattan in about 40 to 55 minutes, while nearby NEC stations offer rail service in roughly an hour.'
+  },
+  {
+    slug: 'helmetta',
+    name: 'Helmetta',
+    county: 'middlesex-county',
+    summary:
+      'Tiny borough with small-town feel and historic snuff mill heritage.',
+    description:
+      'Helmetta is a tiny borough known for the historic General Cigar Company snuff mill. Compact neighborhoods feature small single-family homes, townhomes, and newer condos. Residents enjoy a quiet lifestyle with easy access to East Brunswick and Monroe for shopping and services. Local parks and community events reinforce the borough\'s close-knit atmosphere. Light traffic and walkable streets keep daily life simple. Affordability attracts first-time buyers seeking a small-town feel.',
+    schools:
+      'Helmetta students attend Spotswood schools, including Spotswood High School, in a small district setting.',
+    commute:
+      'Commuters typically use Coach USA buses from East Brunswick park-and-rides, reaching Manhattan in about 55 to 75 minutes and Newark in roughly 40 to 60 minutes.'
+  },
+  {
+    slug: 'highland-park',
+    name: 'Highland Park',
+    county: 'middlesex-county',
+    summary:
+      'Walkable borough across from New Brunswick, with strong community and schools.',
+    description:
+      'Highland Park sits across the Raritan River from New Brunswick with a walkable downtown and diverse population. Raritan Avenue hosts cafés, shops, and restaurants that give the borough a lively main street. Housing ranges from classic colonials and capes to multifamily buildings. Residents benefit from proximity to Rutgers University and Johnson Park. Community groups and civic events reinforce a strong local identity. Its location offers easy access to regional highways and transit.',
+    schools:
+      'Highland Park Public Schools provide AP and arts programs in a small, inclusive district.',
+    commute:
+      'Residents use nearby New Brunswick Station for direct trains to New York in about 50 to 65 minutes and to Newark in approximately 25 to 35 minutes; express buses via East Brunswick provide another option.'
+  },
+  {
+    slug: 'jamesburg',
+    name: 'Jamesburg',
+    county: 'middlesex-county',
+    summary:
+      'Compact borough with suburban lifestyle and Monroe Township amenities nearby.',
+    description:
+      'Jamesburg is a small borough surrounded by Monroe Township with a walkable downtown. Local shops and restaurants line the main streets, and nearby Thompson Park offers ample recreation. Housing remains relatively affordable, including capes, colonials, and multifamily dwellings. Community events and a small-town atmosphere appeal to residents. Access to the New Jersey Turnpike keeps regional travel convenient. The borough provides a quiet alternative to larger suburbs.',
+    schools:
+      'Jamesburg Public Schools serve K–8 locally, and high school students attend Monroe Township High School.',
+    commute:
+      'Suburban Transit buses from nearby park-and-ride lots reach New York in about 60 to 80 minutes, with connections through East Brunswick or New Brunswick getting to Newark in roughly 45 to 65 minutes.'
+  },
+  {
+    slug: 'metuchen',
+    name: 'Metuchen',
+    county: 'middlesex-county',
+    summary:
+      'Charming walkable borough with direct NEC trains and vibrant downtown.',
+    description:
+      'Metuchen is a popular commuter town known for its historic downtown and tree-lined neighborhoods. Main Street features cafés, restaurants, and shops that draw visitors from around the region. Housing includes colonials, Tudors, and new construction on quiet suburban blocks. Community events and local arts groups foster civic pride. Residents appreciate access to major highways and nearby shopping centers. Direct rail service makes commuting straightforward.',
+    schools:
+      'Metuchen School District is well regarded, with Metuchen High School offering AP, arts, and STEM programs.',
+    commute:
+      'Northeast Corridor trains from Metuchen Station run directly to New York Penn in about 40 to 50 minutes and to Newark Penn in roughly 20 to 25 minutes.'
+  },
+  {
+    slug: 'middlesex',
+    name: 'Middlesex',
+    county: 'middlesex-county',
+    summary:
+      'Borough on the Raritan Valley Line with suburban neighborhoods and local parks.',
+    description:
+      'Middlesex Borough sits along the Raritan River with suburban neighborhoods and local parks. The community offers modest capes, split-levels, and ranches with easy access to retail corridors. Mountainview Park and Victor Crowell Park support an active recreation scene. Community events and youth sports contribute to its small-town vibe. Major highways nearby enhance commuting flexibility. The borough provides a quiet base close to regional employment centers.',
+    schools:
+      'Middlesex Borough Public Schools offer AP courses and extracurricular programs at Middlesex High School.',
+    commute:
+      'Raritan Valley Line trains from Middlesex Station reach New York Penn with a Newark transfer in about 70 to 85 minutes, and Newark Penn in roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'milltown',
+    name: 'Milltown',
+    county: 'middlesex-county',
+    summary:
+      'Small borough with historic charm, Mill Pond, and suburban neighborhoods.',
+    description:
+      'Milltown centers around its historic Main Street and scenic Mill Pond. The borough offers a suburban lifestyle with parks, neighborhood schools, and a mix of housing styles. Seasonal festivals and a close-knit community highlight local pride. Housing includes older colonials, ranches, and newer construction. Its proximity to Route 1 and Route 18 provides quick access to shopping and employment centers. Nearby New Brunswick and East Brunswick expand recreational options.',
+    schools:
+      'Milltown Public Schools serve K–8 locally, while high schoolers attend Spotswood High School.',
+    commute:
+      'Suburban Transit buses from the Route 18 park-and-ride reach Manhattan in about 55 to 75 minutes, and trains from nearby New Brunswick Station reach New York in about 60 to 80 minutes and Newark in 30 to 40 minutes.'
   }
 ];
