@@ -408,18 +408,6 @@ export const TOWNS: Town[] = [
       'Midtown Direct service on the Morris & Essex Line connects Morristown Station to Penn Station in about 50 to 60 minutes, and commuters can also use buses or drive via I-287 and Route 24.'
   },
   {
-    slug: 'montclair-nj',
-    name: 'Montclair',
-    county: 'essex-county',
-    summary: 'Arts-and-culture hub with multiple rail stations and eclectic housing.',
-    description:
-      'Montclair mixes urban energy with suburban comfort. Art museums and theaters draw visitors from across the region. Distinct neighborhoods feature everything from grand mansions to cozy apartments. Its downtowns are dotted with cafes, boutiques, and weekend markets. Abundant parks and reservation trails encourage outdoor recreation. Several rail stations provide easy access to Manhattan.',
-    schools:
-      'Montclair Public Schools operate a magnet system that balances academics, arts, and diversity.',
-    commute:
-      'NJ Transit\'s Montclair-Boonton Line offers Midtown Direct trains from Bay Street, Walnut Street, and Upper Montclair stations, typically reaching Penn Station in 35 to 55 minutes, while express buses provide alternate routes.'
-  },
-  {
     slug: 'hoboken-nj',
     name: 'Hoboken',
     county: 'hudson-county',
@@ -787,6 +775,126 @@ export const TOWNS: Town[] = [
       'South Orange–Maplewood School District features magnet-style elementary schools, strong music programs, and a well-regarded high school.',
     commute:
       'Midtown Direct trains from Maplewood Station reach New York Penn Station in about 30 to 40 minutes, and express buses provide alternatives.'
+  },
+  {
+    slug: 'millburn',
+    name: 'Millburn',
+    county: 'essex-county',
+    summary: 'Prestigious commuter town with top-ranked schools, luxury homes, and Midtown Direct trains.',
+    description:
+      'Millburn is one of New Jersey\'s most sought-after communities, known for its nationally ranked schools, luxury housing, and cultural amenities. Its downtown offers upscale shopping, restaurants, and the Paper Mill Playhouse, a renowned regional theater. Millburn is also home to the Short Hills Mall, a premier luxury shopping destination. Housing includes historic colonials, sprawling estates, and high-end new construction. Parks and green spaces like South Mountain Reservation provide ample outdoor recreation. Direct Midtown trains and proximity to Newark Airport make Millburn highly desirable for NYC professionals.',
+    schools:
+      'Millburn Township Public Schools consistently rank among New Jersey\'s best, with Millburn High School noted for AP, honors, and STEM excellence (Niche).',
+    commute:
+      'Morris & Essex Line Midtown Direct trains from Millburn or Short Hills stations reach New York Penn Station in about 35 to 45 minutes, and the M&E Line connects to Newark in roughly 20 to 25 minutes.'
+  },
+  {
+    slug: 'montclair',
+    name: 'Montclair',
+    county: 'essex-county',
+    summary: 'Trendy township with vibrant arts, diverse neighborhoods, and Midtown train service.',
+    description:
+      'Montclair is one of New Jersey\'s most vibrant and culturally diverse suburbs, famous for its arts scene, historic homes, and bustling downtown districts. Bloomfield Avenue is lined with restaurants, theaters, and shops. The Montclair Art Museum and Wellmont Theater are major cultural anchors. Housing includes Victorian mansions, Tudors, colonials, and modern condos. Residents enjoy outdoor activities in the many parks and the nearby Eagle Rock Reservation. Montclair is especially popular with NYC transplants seeking diversity, walkability, and direct train service.',
+    schools:
+      'Montclair Public Schools operate a magnet system with specialized programs and Montclair High School offers AP, STEM, and strong performing arts (Niche).',
+    commute:
+      'Montclair-Boonton Line trains from Bay Street, Walnut Street, and Upper Montclair stations typically reach New York Penn Station in 35 to 45 minutes via Secaucus, and trains to Newark Broad Street take about 15 to 20 minutes.'
+  },
+  {
+    slug: 'north-caldwell',
+    name: 'North Caldwell',
+    county: 'essex-county',
+    summary: 'Upscale borough with luxury homes, top schools, and suburban tranquility.',
+    description:
+      'North Caldwell is an affluent residential borough in western Essex County. It is primarily suburban, with large luxury homes, manicured lawns, and quiet streets. The borough consistently ranks among the best places to live in New Jersey for safety, schools, and overall quality of life. Recreation centers around small parks, sports fields, and nearby nature reservations. Community events and civic groups help foster strong neighborhood ties. Its small-town atmosphere and proximity to highways like I-280 and Route 46 make it convenient while maintaining exclusivity.',
+    schools:
+      'The North Caldwell School District serves PreK–6 students locally before they attend West Essex High School, a highly rated regional school.',
+    commute:
+      'Lakeland commuter buses via Route 46 reach Port Authority in about 40 to 55 minutes, and NJ Transit buses connect to Newark in roughly 20 to 30 minutes for rail transfers to NYC.'
+  },
+  {
+    slug: 'nutley',
+    name: 'Nutley',
+    county: 'essex-county',
+    summary: 'Family-friendly township with strong schools, parks, and proximity to NYC.',
+    description:
+      'Nutley is a desirable suburban community known for its tree-lined streets, strong schools, and family-oriented atmosphere. It features extensive parkland along the Third River and a lively downtown with shops and eateries. Housing includes colonials, capes, multifamily residences, and newer condos and townhomes. The township hosts seasonal events and community programs that strengthen local ties. Health-care and corporate campuses in neighboring towns provide nearby employment. Its location along Route 3 and near the New Jersey Turnpike provides excellent commuter access to both NYC and Newark.',
+    schools:
+      'Nutley Public Schools emphasize community engagement and offer AP and extracurricular programs at Nutley High School (GreatSchools).',
+    commute:
+      'NJ Transit buses along Route 3 reach Port Authority in about 35 to 50 minutes, and quick buses connect to Newark Penn Station in roughly 15 to 25 minutes.'
+  },
+  {
+    slug: 'orange',
+    name: 'Orange',
+    county: 'essex-county',
+    summary: 'Historic urban-suburban city with direct Midtown train service.',
+    description:
+      'Orange is a diverse city in eastern Essex County with a mix of historic homes, apartment buildings, and new developments. Its neighborhoods vary widely, with some areas undergoing significant revitalization. Orange offers strong public transit links, with NJ Transit stations providing Midtown Direct access. Local arts organizations and cultural festivals reflect the community\'s rich heritage. Residents benefit from easy access to shopping and jobs in nearby Newark and the rest of Essex County. The city\'s cultural diversity and affordability compared to neighboring towns make it attractive for commuters and new residents.',
+    schools:
+      'Orange Public Schools include Orange High School with AP, STEM, and magnet programs serving a large, diverse student body.',
+    commute:
+      'Morris & Essex Midtown Direct trains from Orange Station reach New York Penn Station in about 25 to 35 minutes, and the same line connects to Newark Broad Street in roughly 10 to 15 minutes.'
+  },
+  {
+    slug: 'roseland',
+    name: 'Roseland',
+    county: 'essex-county',
+    summary: 'Small upscale borough with suburban tranquility and strong schools.',
+    description:
+      'Roseland is a quiet, affluent borough in western Essex County. It offers a suburban feel with spacious homes, excellent schools, and easy access to I-280 and Route 46. The borough has seen growth in luxury housing and corporate campuses while retaining a community-focused atmosphere. Parks, recreation programs, and nearby South Mountain Reservation give residents room to unwind. Local clubs and volunteer groups create strong neighborhood connections. Residents enjoy proximity to shopping in Livingston and West Caldwell while keeping a tranquil home setting.',
+    schools:
+      'Lester C. Noecker School serves K–6 locally before students move to the highly rated West Essex regional middle and high schools.',
+    commute:
+      'Lakeland and NJ Transit buses provide service to Port Authority in about 40 to 60 minutes, and buses to Newark Penn Station take roughly 20 to 30 minutes.'
+  },
+  {
+    slug: 'south-orange',
+    name: 'South Orange',
+    county: 'essex-county',
+    summary: 'Vibrant and diverse village with a lively downtown, Seton Hall University, and direct Midtown trains.',
+    description:
+      'South Orange is a culturally rich village known for its diverse community, thriving downtown, and historic housing stock. Tree-lined streets feature Victorians, Tudors, and colonials. Seton Hall University and the South Orange Performing Arts Center anchor its cultural scene. Neighborhood associations and local events contribute to a strong sense of community. Many parks and the South Mountain Reservation offer ample outdoor recreation. South Orange is one of Essex County\'s most popular commuter towns thanks to direct Midtown train service and vibrant lifestyle.',
+    schools:
+      'South Orange–Maplewood School District serves the village, with Columbia High School offering AP, STEM, and arts programs (Niche).',
+    commute:
+      'Morris & Essex Line Midtown Direct trains from South Orange Station reach New York Penn Station in about 30 to 40 minutes, and trains to Newark Broad Street take roughly 10 to 15 minutes.'
+  },
+  {
+    slug: 'verona',
+    name: 'Verona',
+    county: 'essex-county',
+    summary: 'Charming township with Verona Park, strong schools, and a family-oriented lifestyle.',
+    description:
+      'Verona is a suburban community known for Verona Park, one of Essex County\'s most scenic destinations with a lake, walking trails, and a boathouse. Housing includes Tudors, colonials, split-levels, and new construction. Its small-town feel is balanced by proximity to Montclair\'s cultural amenities and regional highways. Local recreation programs and community events keep residents engaged year-round. Businesses along Bloomfield Avenue provide shopping and dining close to home. It has strong schools and an active recreation program, making it popular with families.',
+    schools:
+      'Verona Public Schools feature well-rated programs and Verona High School offers AP, STEM, and strong music and arts opportunities (GreatSchools).',
+    commute:
+      'NJ Transit buses along Bloomfield Avenue reach Port Authority in about 40 to 55 minutes, and quick buses connect to Newark in roughly 20 to 30 minutes for rail transfers.'
+  },
+  {
+    slug: 'west-caldwell',
+    name: 'West Caldwell',
+    county: 'essex-county',
+    summary: 'Residential township with strong schools and suburban convenience.',
+    description:
+      'West Caldwell is a primarily residential township offering suburban living with excellent schools and strong municipal services. Housing includes colonials, ranches, and newer subdivisions. Parks and community facilities support youth sports and seasonal events. Its location near Routes 46 and 80 keeps regional travel convenient. Shopping and dining in nearby Caldwell and North Caldwell add to local amenities. The township\'s quiet neighborhoods make it especially popular with families.',
+    schools:
+      'Caldwell–West Caldwell School District serves the area, with James Caldwell High School known for solid academics and extracurriculars.',
+    commute:
+      'NJ Transit buses via Bloomfield Avenue reach Port Authority in about 45 to 60 minutes, and buses to Newark typically take 25 to 35 minutes.'
+  },
+  {
+    slug: 'west-orange',
+    name: 'West Orange',
+    county: 'essex-county',
+    summary: 'Diverse township with historic sites, suburban neighborhoods, and NYC skyline views.',
+    description:
+      'West Orange is a diverse and expansive township famous as the home of Thomas Edison. It features Turtle Back Zoo, South Mountain Reservation, and Eagle Rock Reservation with sweeping NYC skyline views. Housing is diverse, including apartments, single-family homes, and luxury estates. West Orange also hosts golf courses, country clubs, and a growing dining scene. Community events and local arts initiatives highlight the township\'s cultural mix. Its combination of suburban convenience, amenities, and diversity make it a popular Essex County choice.',
+    schools:
+      'West Orange Public Schools offer AP and vocational programs at West Orange High School and emphasize inclusivity and student success (GreatSchools).',
+    commute:
+      'NJ Transit buses via I-280 and Route 10 run frequently to Port Authority in about 40 to 60 minutes, and buses reach Newark Penn Station in roughly 20 to 30 minutes for trains into Manhattan.'
   },
   {
     slug: 'jersey-city-nj',
