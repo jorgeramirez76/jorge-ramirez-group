@@ -213,73 +213,79 @@ export const TOWNS: Town[] = [
     slug: 'roselle-park',
     name: 'Roselle Park',
     county: 'union-county',
-    summary: 'Compact borough with RVL station and growing dining scene.',
+    summary:
+      'Tight-knit borough with a small-town feel, walkable downtown, and Raritan Valley Line train station.',
     description:
-      'Roselle Park blends convenience and community in a one-square-mile footprint. Renovated homes and new restaurants cluster near the train station. Tree-lined residential blocks foster a small-town feel. Annual festivals and farmers markets bring neighbors together. Nearby shopping in Cranford and Union expands local options. The borough\'s location near the Garden State Parkway appeals to commuters.',
+      'Roselle Park is a compact suburban borough known for its walkable neighborhoods, friendly community, and accessibility. The downtown features restaurants, shops, and easy access to both Elizabeth and Cranford amenities. Housing includes capes, colonials, and multi-family residences, offering a mix of affordability and charm. The borough\'s small size makes it highly walkable and easy to navigate. Local events, parades, and youth sports programs showcase strong community spirit. Residents appreciate fast connections to surrounding towns and regional transit corridors.',
     schools:
-      'Roselle Park Public Schools offer neighborhood schools with active arts and athletics programs.',
+      'Roselle Park Public Schools feature Roselle Park High School with AP courses, athletics, and arts programs, and strong neighborhood elementary schools that foster community cohesion (GreatSchools).',
     commute:
-      'Raritan Valley Line trains from Roselle Park Station reach New York Penn via Newark in roughly 55 to 70 minutes.'
+      'NJ Transit\'s Raritan Valley Line from Roselle Park Station reaches New York Penn with a Newark transfer in about 55 to 70 minutes, and the same line brings riders to Newark Penn in roughly 22 to 32 minutes.'
   },
   {
     slug: 'scotch-plains',
     name: 'Scotch Plains',
     county: 'union-county',
-    summary: 'Suburban township with parks, SPF schools, and RVL access via Fanwood.',
+    summary:
+      'Large suburban township with a variety of neighborhoods, excellent schools, and strong community pride.',
     description:
-      'Scotch Plains stretches from bustling downtown streets to quiet neighborhoods near the Watchung Reservation. Community life centers on parks, golf courses, and recreation leagues. Housing spans historic farmhouses, mid-century ranches, and new construction. The township shares a strong school district with neighboring Fanwood. Local events and concerts reinforce a friendly, civic-minded culture. Shopping and dining options line Park Avenue and Route 22.',
+      'Scotch Plains is a family-oriented township featuring a blend of suburban neighborhoods, expansive parks, and cultural diversity. It is home to part of the Watchung Reservation, offering abundant outdoor recreation. Housing ranges from affordable starter homes to luxury estates. The township supports a robust sports and recreation program and an active civic life. Its downtown is modest but complemented by nearby Fanwood and Westfield commercial districts. Community pride runs deep, with events and organizations bringing residents together year-round.',
     schools:
-      'Scotch Plains–Fanwood Public Schools are known for highly regarded music programs and broad extracurricular offerings.',
+      'Scotch Plains–Fanwood Public Schools share a district with neighboring Fanwood and are consistently ranked among Union County\'s strongest, highlighted by AP offerings and rich extracurricular, arts, and athletics programs (Niche).',
     commute:
-      'Residents often use Fanwood or Westfield stations on the Raritan Valley Line for trains to New York in about 60 to 75 minutes, and NJ Transit buses serve Midtown as well.'
+      'NJ Transit\'s Raritan Valley Line from nearby Fanwood Station reaches New York Penn with a Newark transfer in about 55 to 70 minutes, offering off-peak one-seat rides, and trains to Newark Penn take roughly 25 to 35 minutes.'
   },
   {
     slug: 'springfield',
     name: 'Springfield',
     county: 'union-county',
-    summary: 'Central location near Short Hills/Millburn/Summit with strong commuter access.',
+    summary:
+      'Suburban township with historic landmarks, strong schools, and convenient transit access.',
     description:
-      'Springfield\'s neighborhoods fan out from historic Morris Avenue. The town offers a mix of post-war homes and newer developments. Residents enjoy day-to-day conveniences and access to nearby regional malls. Parks and the Baltusrol Golf Club provide ample green space. Seasonal town events foster civic pride. Its location near major highways positions it well for commuters.',
+      'Springfield is a suburban township steeped in Revolutionary War history, with the Battle of Springfield commemorated annually. Today, it is known for its quiet neighborhoods, excellent schools, and proximity to shopping along Morris Avenue and Route 22. Residents enjoy parks, golf courses, and nearby Short Hills Mall. Housing options include Cape Cods, split-levels, colonials, and modern new construction, attracting a broad demographic of residents. Its central location offers quick access to major highways and neighboring commuter towns. Community events and organizations cultivate strong local pride.',
     schools:
-      'Springfield Public Schools maintain a close-knit environment and benefit from nearby county magnet programs.',
+      'Springfield Public Schools emphasize personalized learning and community engagement; Jonathan Dayton High School provides AP courses, athletics, and extracurricular clubs (GreatSchools).',
     commute:
-      'Commuters typically drive to Short Hills, Millburn, or Summit stations for direct trains to New York in about 50 to 70 minutes, while buses run along Morris Avenue to Port Authority.'
+      'Many residents drive to Millburn or Short Hills stations on the Midtown Direct Morris & Essex Line for 40 to 50 minute rides to New York, or take NJ Transit buses from downtown to Port Authority in about 50 to 65 minutes; quick buses reach Newark Penn in roughly 20 to 30 minutes.'
   },
   {
     slug: 'union',
     name: 'Union',
     county: 'union-county',
-    summary: 'Large township with Kean University, shopping, and RVL station.',
+    summary:
+      'Large township with Kean University, retail centers, and Midtown Direct rail service.',
     description:
-      'Union offers diverse housing from mid-century ranches to new townhomes. Morris Avenue and Route 22 provide extensive retail and dining choices. Kean University adds cultural events and youthful energy. Neighborhood parks and a busy community center support recreation. Annual parades and festivals showcase township pride. Its central county location keeps regional destinations within easy reach.',
+      'Union is a diverse township offering a mix of suburban neighborhoods, vibrant retail centers, and cultural amenities. Home to Kean University, the township has a lively academic influence along with attractions like Liberty Hall Museum. Residents enjoy proximity to shopping along Route 22 and Morris Avenue. Housing ranges from affordable starter homes to larger colonials, appealing to commuters and families alike. Parks and community programs provide recreation throughout the year. Its location near major highways keeps regional travel convenient.',
     schools:
-      'Union Public School District delivers comprehensive academics with clubs and athletics across grade levels.',
+      'Union Public Schools offer AP courses, vocational programs, and extracurriculars at Union High School, serving a large and diverse student population with partnerships with Kean University (GreatSchools).',
     commute:
-      'Raritan Valley Line trains from Union Station reach New York Penn via Newark in about 50 to 65 minutes, and multiple NJ Transit bus routes serve Newark and Manhattan.'
+      'NJ Transit\'s Raritan Valley Line from Union Station reaches New York Penn with a Newark transfer in about 50 to 65 minutes with occasional off-peak one-seat rides, and buses via Morris Avenue connect to Port Authority; trains to Newark Penn take roughly 25 to 35 minutes.'
   },
   {
     slug: 'westfield',
     name: 'Westfield',
     county: 'union-county',
-    summary: 'Elegant downtown, classic homes, and RVL rail (transfer to NYC).',
+    summary:
+      'Charming and upscale town with an iconic downtown, strong schools, and RVL train service.',
     description:
-      'Westfield blends upscale shopping and dining with postcard streets of colonials and tudors. A restored train station anchors the walkable downtown. Families gather at parks and attend longstanding community events. Housing ranges from historic mansions to newer luxury builds. Strong civic organizations support local arts and sports. Proximity to major highways aids regional travel.',
+      'Westfield is one of Union County\'s most prestigious communities, famed for its vibrant downtown filled with shops, fine dining, and cultural events. The town features a wide array of housing, from stately colonials and Victorians to modern luxury homes. Residents enjoy Tamaques Park, Mindowaskin Park, and a strong sense of community. Its nationally recognized school district and proximity to New York City make Westfield a perennial favorite among professionals and families. Historic sites and seasonal festivals enhance the town\'s charm. Local civic groups and volunteer organizations keep residents engaged.',
     schools:
-      'Westfield Public Schools enjoy a high academic reputation with extensive extracurricular activities.',
+      'Westfield Public Schools include multiple Blue Ribbon schools, and Westfield High School offers extensive AP courses, athletics, and arts programs supported by strong community involvement (Niche, GreatSchools).',
     commute:
-      'Raritan Valley Line trains from Westfield Station connect to New York Penn via Newark in roughly 55 to 70 minutes.'
+      'Raritan Valley Line trains from Westfield Station reach New York Penn via Newark in about 55 to 70 minutes with off-peak one-seat rides, and trains to Newark Penn take roughly 25 to 35 minutes.'
   },
   {
     slug: 'winfield',
     name: 'Winfield',
     county: 'union-county',
-    summary: 'Small community with quick access to Linden/Rahway corridors.',
+    summary:
+      'Tiny township with close-knit community and affordable housing.',
     description:
-      'Winfield is one of New Jersey\'s smallest municipalities, tucked along the Rahway River. The town\'s quiet streets feature modest single-family homes. Residents share amenities with neighboring Linden and Clark. Community events revolve around the local park and firehouse. Shopping, dining, and major transit are minutes away. The tight-knit populace prides itself on volunteerism.',
+      'Winfield is the smallest municipality in Union County, known for its cooperative-style housing and tight-knit community. Established during World War II as worker housing, it retains a unique layout and community governance. Residents enjoy a quiet lifestyle with easy access to neighboring Linden and Clark for shopping and services. The township\'s affordable housing and community-centered environment make it distinct within Union County. Local parks and the Rahway River provide small-town recreation. Community events and shared responsibilities foster strong neighborly connections.',
     schools:
-      'Winfield Township School District provides a small-scale K–8 environment, with high school students attending Arthur L. Johnson High School in Clark.',
+      'Winfield Township School District serves grades K–8 locally, with high school students attending David Brearley High School in Kenilworth; small class sizes offer individualized attention (GreatSchools).',
     commute:
-      'Commuters rely on nearby Linden or Rahway stations for direct trains to New York in 40 to 60 minutes and can access express buses from surrounding corridors.'
+      'Residents typically use NJ Transit buses from neighboring Linden or Clark to reach New York in about 50 to 70 minutes, and similar routes connect to Newark in roughly 20 to 30 minutes.'
   },
   {
     slug: 'morristown-nj',
