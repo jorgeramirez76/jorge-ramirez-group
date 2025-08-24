@@ -7,13 +7,17 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
       <div className="container h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3" aria-label="The Jorge Ramirez Group">
+        <Link
+          href="/"
+          className="group flex items-center"
+          aria-label="The Jorge Ramirez Group"
+        >
           <Image
             src="/images/logo/logo-primary.png"
             alt="The Jorge Ramirez Group"
-            width={160}
-            height={40}
-            className="h-7 w-auto"
+            width={200}
+            height={50}
+            className="h-8 w-auto transition-transform duration-150 group-hover:scale-110"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
