@@ -6,8 +6,8 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
-      <div className="container h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3" aria-label="The Jorge Ramirez Group">
+      <div className="container flex justify-center py-4">
+        <Link href="/" aria-label="The Jorge Ramirez Group">
           <Image
             src="/images/logo/logo-primary.png"
             alt="The Jorge Ramirez Group"
@@ -16,6 +16,8 @@ export function SiteHeader() {
             className="h-7 w-auto"
           />
         </Link>
+      </div>
+      <div className="container h-16 flex items-center justify-end md:justify-center">
         <nav className="hidden md:flex items-center gap-6">
           <Link href="/buy">Buy</Link>
           <Link href="/sell">Sell</Link>
@@ -25,7 +27,9 @@ export function SiteHeader() {
           <Link href="/resources">Resources</Link>
           <Link href="/contact" className="rounded-full bg-black text-white px-4 py-2">Consultation</Link>
         </nav>
-        <button className="md:hidden" aria-label="Menu" onClick={()=>setOpen(v=>!v)}>☰</button>
+        <button className="md:hidden" aria-label="Menu" onClick={() => setOpen(v => !v)}>
+          ☰
+        </button>
       </div>
       {open && (
         <div className="md:hidden border-t bg-white">
