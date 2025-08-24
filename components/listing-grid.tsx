@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import listings from "@/content/listings.json";
+import type { ListingItem } from '@/types/listing';
 
 export function ListingGrid({ limit }: { limit?: number }) {
-  const items = (listings as any[]).slice(0, limit || undefined);
+  const items = (listings as ListingItem[]).slice(0, limit ?? undefined);
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {items.map((l) => (

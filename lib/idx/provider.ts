@@ -14,13 +14,15 @@ export type Listing = {
 };
 
 export interface IDXProvider {
-  featured(count?: number): Promise<Listing[]>;
-  byCity(citySlug: string, count?: number): Promise<Listing[]>;
-  byId(id: string): Promise<Listing | null>;
+  featured(_count?: number): Promise<Listing[]>;
+  byCity(_citySlug: string, _count?: number): Promise<Listing[]>;
+  byId(_id: string): Promise<Listing | null>;
 }
 
+import { mockProvider } from './mock';
+
 export function getIDX(): IDXProvider {
-  if (process.env.IDX_PROVIDER === 'mock') return require('./mock').mockProvider;
+  if (process.env.IDX_PROVIDER === 'mock') return mockProvider;
   // Replace with your real provider implementation
-  return require('./mock').mockProvider;
+  return mockProvider;
 }

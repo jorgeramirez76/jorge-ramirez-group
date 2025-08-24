@@ -1,4 +1,6 @@
-type Props = { title: string; eyebrow?: string; children: React.ReactNode };
+import type { ReactNode } from 'react';
+
+type Props = { title: string; eyebrow?: string; children: ReactNode };
 export function Section({ title, eyebrow, children }: Props) {
   return (
     <section className="py-16 md:py-24">

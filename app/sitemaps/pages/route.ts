@@ -11,7 +11,7 @@ const staticPages = [
   '/privacy-policy',
   '/terms',
   '/fair-housing',
-  '/ada'
+  '/legal/ada'
 ];
 
 export async function GET() {

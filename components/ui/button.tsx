@@ -1,8 +1,9 @@
 import { clsx } from "clsx";
-import Link from "next/link";
-type Props = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  variant?: "primary" | "secondary" | "outline" | "ghost" | "outlineLight";
-  size?: "sm" | "md" | "lg";
+import type { ButtonHTMLAttributes } from 'react';
+
+type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'outlineLight';
+  size?: 'sm' | 'md' | 'lg';
 };
 export function Button({ className, variant="primary", size="md", ...props }: Props) {
   const base = "rounded-2xl px-5 py-3 transition";

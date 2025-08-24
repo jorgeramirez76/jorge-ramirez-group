@@ -4,7 +4,7 @@ export const revalidate = 86400;
 
 export default function ContactPage() {
   return (
-    <main className="container">
+    <main className="mx-auto max-w-[900px] p-8">
       <h1>Contact The Jorge Ramirez Group</h1>
       <p>
         Call <a href="tel:+19082307844">908-230-7844</a> or send us a message below.
@@ -15,13 +15,6 @@ export default function ContactPage() {
         <br />
         488 Springfield Ave, Summit, NJ 07901
       </address>
-      <style jsx>{`
-        .container {
-          max-width: 900px;
-          margin: 0 auto;
-          padding: 32px 20px;
-        }
-      `}</style>
     </main>
   );
 }

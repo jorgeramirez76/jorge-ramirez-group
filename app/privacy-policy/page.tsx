@@ -2,7 +2,7 @@ export const revalidate = 604800;
 
 export default function PrivacyPolicy() {
   return (
-    <main className="container">
+    <main className="mx-auto max-w-[900px] p-8">
       <h1>Privacy Policy</h1>
       <p>Effective: {new Date().getFullYear()}</p>
       <h2>Information We Collect</h2>
@@ -17,7 +17,6 @@ export default function PrivacyPolicy() {
       <p>Email <a href="mailto:jorge.ramirez@kw.com">jorge.ramirez@kw.com</a> to access or delete your data.</p>
       <h2>Contact</h2>
       <p>The Jorge Ramirez Group, 488 Springfield Ave, Summit, NJ 07901</p>
-      <style jsx>{`.container{max-width:900px;margin:0 auto;padding:32px 20px}`}</style>
     </main>
   );
 }

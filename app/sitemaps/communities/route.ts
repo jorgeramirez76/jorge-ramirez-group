@@ -1,20 +1,15 @@
-export const runtime = 'edge';
+import { COUNTIES, TOWNS } from '@/content/communities.data';
 
-const counties = [
-  'union-county',
-  'morris-county',
-  'essex-county',
-  'hudson-county',
-  'middlesex-county'
-];
-const cities = ['summit-nj', 'short-hills-nj', 'chatham-nj', 'westfield-nj'];
+export const runtime = 'edge';
 
 export async function GET() {
   const base = 'https://www.thejorgeramirezgroup.com';
+  const countySlugs = COUNTIES.map((c) => c.slug);
+  const citySlugs = TOWNS.map((t) => t.slug);
   const urls = [
     '/communities',
-    ...counties.map((c) => `/communities/${c}`),
-    ...cities.map((c) => `/communities/${c}`)
+    ...countySlugs.map((c) => `/communities/${c}`),
+    ...citySlugs.map((c) => `/communities/${c}`)
   ]
     .map((p) => `<url><loc>${base}${p}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>`)
     .join('');
