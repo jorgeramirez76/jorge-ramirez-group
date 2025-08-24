@@ -456,6 +456,123 @@ export const TOWNS: Town[] = [
       'Drivers reach NYC via Interstates 80 and 287 or NJ Transit buses; nearby Morris Plains or Mount Tabor stations offer trains that reach Penn Station in roughly 60 to 75 minutes.'
   },
   {
+    slug: 'east-hanover-nj',
+    name: 'East Hanover',
+    county: 'morris-county',
+    summary:
+      'Family-oriented township with strong schools, retail centers, and highway access.',
+    description:
+      'East Hanover is a suburban township well known for its family-friendly neighborhoods, excellent services, and convenient location. Corporate campuses and shopping centers line Route 10, while residential areas feature colonials, capes, and split-levels on well-kept lots. The township appeals to commuters seeking quick access to Interstates 280, 80, and 287. Lurker Park, town pools, and extensive youth sports programs anchor local recreation. Seasonal events and civic groups foster a strong community spirit. Residents enjoy a balance of quiet suburban streets and nearby employment centers.',
+    schools:
+      'East Hanover Township School District provides K–8 at Frank J. Smith and Central Schools, with high schoolers attending Hanover Park High School; the district is noted for strong academics and extracurriculars (GreatSchools).',
+    commute:
+      'Lakeland commuter buses along Route 10 reach Port Authority in about 50 to 70 minutes, and NJ Transit buses provide Newark service in roughly 25 to 40 minutes.'
+  },
+  {
+    slug: 'florham-park-nj',
+    name: 'Florham Park',
+    county: 'morris-county',
+    summary:
+      'Upscale township with strong schools, corporate campuses, and Jets training center.',
+    description:
+      'Florham Park is an affluent township combining suburban charm with corporate presence. It hosts the New York Jets Training Facility, Fairleigh Dickinson University, and several Fortune 500 offices. Neighborhoods feature spacious homes on large lots alongside newer luxury developments. Local events, recreation programs, and active organizations preserve a small-town vibe. Residents appreciate convenient access to Route 24 and major employment hubs. Parks and open spaces offer plenty of outdoor enjoyment.',
+    schools:
+      'Florham Park School District runs Briarwood, Brooklake, and Ridgedale Schools for K–8, and students attend Hanover Park High School for grades 9–12, with academics and community involvement highly regarded (GreatSchools).',
+    commute:
+      'Morris & Essex Line trains from nearby Madison or Convent Station provide direct service to New York Penn in about 45 to 60 minutes, and Lakeland buses along Route 24 and Columbia Turnpike reach Port Authority in roughly 55 to 70 minutes.'
+  },
+  {
+    slug: 'hanover-township-nj',
+    name: 'Hanover Township',
+    county: 'morris-county',
+    summary:
+      'Convenient township with residential neighborhoods and major employment centers.',
+    description:
+      'Hanover Township encompasses Whippany and Cedar Knolls with a balance of quiet streets and corporate campuses. Housing ranges from modest single-family homes to upscale neighborhoods with easy highway access. The township has a strong recreational culture with parks, youth leagues, and the Whippany Railway Museum. Commuters value quick connections to Routes 10, 24, and 287. Local events and clubs help maintain a small-town feel despite nearby employment centers. Everyday shopping and dining remain close at hand.',
+    schools:
+      'Hanover Township Public Schools serve PreK–8 at Bee Meadow, Salem Drive, and Memorial Schools, while high schoolers attend Whippany Park High in the Hanover Park Regional District, noted for its STEM focus (GreatSchools).',
+    commute:
+      'Morris & Essex Line trains from Morris Plains or Morristown stations reach New York in about 55 to 70 minutes, and Lakeland buses from Whippany run to Port Authority in roughly 60 to 75 minutes.'
+  },
+  {
+    slug: 'harding-nj',
+    name: 'Harding Township',
+    county: 'morris-county',
+    summary:
+      'Exclusive township with estate homes, preserved land, and country club living.',
+    description:
+      'Harding Township is known for estate homes, equestrian properties, and expanses of preserved land. Strict zoning maintains its rural, country character despite proximity to Morristown. The New Jersey Audubon Society\'s Scherman Hoffman Sanctuary offers scenic trails and wildlife. Residents value the township\'s low-density, country club lifestyle. Scenic byways and historic landmarks enhance its exclusive appeal. Luxury estates on multi-acre lots provide privacy and prestige.',
+    schools:
+      'Harding Township School serves grades K–8, and students attend top-rated Madison High School for grades 9–12, with the small district offering personalized education (GreatSchools).',
+    commute:
+      'Nearby Morristown and Madison stations on the Midtown Direct line provide trains to New York Penn in about 55 to 70 minutes and service to Newark in roughly 30 to 40 minutes.'
+  },
+  {
+    slug: 'jefferson-township-nj',
+    name: 'Jefferson Township',
+    county: 'morris-county',
+    summary:
+      'Lakeside township with scenic beauty, outdoor recreation, and diverse neighborhoods.',
+    description:
+      'Jefferson Township, the county\'s largest by area, encompasses multiple lake communities including Lake Hopatcong. Residents enjoy boating, fishing, and hiking across state parks and campgrounds. Housing ranges from lakefront cottages and condos to modern suburban subdivisions. Community festivals, summer concerts, and holiday parades foster local pride. Local businesses support daily needs without leaving town. Access to major highways keeps regional commuting manageable.',
+    schools:
+      'Jefferson Township Public Schools feature AP courses, technology integration, and strong support for athletics and music programs (GreatSchools).',
+    commute:
+      'Lakeland buses from the Lake Hopatcong area provide service to Port Authority in about 65 to 85 minutes and run to Newark in roughly 45 to 65 minutes.'
+  },
+  {
+    slug: 'kinnelon-nj',
+    name: 'Kinnelon',
+    county: 'morris-county',
+    summary:
+      'Affluent township with scenic hills, gated communities, and top-ranked schools.',
+    description:
+      'Kinnelon sits in the Ramapo Mountains with luxury developments, large estates, and preserved open space. The Smoke Rise community offers gated lake access and private amenities. Hiking trails, equestrian centers, and scenic landscapes make the township a peaceful retreat. Local lakes and parks provide recreation year-round. Despite its seclusion, major highways and bus routes keep commuters connected. The township is highly regarded for its family-friendly environment.',
+    schools:
+      'Kinnelon Public Schools consistently rank among New Jersey\'s best, emphasizing AP, honors, and STEM opportunities (Niche).',
+    commute:
+      'Lakeland commuter buses via Route 23 reach Port Authority in about 55 to 75 minutes and offer service to Newark in roughly 35 to 50 minutes.'
+  },
+  {
+    slug: 'lincoln-park-nj',
+    name: 'Lincoln Park',
+    county: 'morris-county',
+    summary:
+      'Commuter-friendly borough with affordable homes and Montclair-Boonton Line station.',
+    description:
+      'Lincoln Park blends residential neighborhoods, condos, and townhomes, making it one of Morris County\'s more affordable commuter towns. The community stays active with local parks, recreation programs, and a growing dining scene. Neighborhoods range from older capes to newer townhouses. Residents value the small-town feel with urban access nearby. Its rail station provides direct connections to Hoboken and Midtown via transfer. The borough\'s location near Route 23 and I-80 adds commuting convenience.',
+    schools:
+      'Lincoln Park Public Schools educate K–8 students before they attend Boonton High School, with small class sizes and strong community support (GreatSchools).',
+    commute:
+      'Montclair-Boonton Line trains from Lincoln Park Station reach Hoboken with Midtown transfers in about 60 to 75 minutes, and Lakeland buses via Route 23 arrive at Port Authority in roughly 55 to 70 minutes.'
+  },
+  {
+    slug: 'long-hill-nj',
+    name: 'Long Hill Township',
+    county: 'morris-county',
+    summary:
+      'Scenic township with small-town feel, top schools, and Gladstone Branch rail service.',
+    description:
+      'Long Hill Township spans the communities of Gillette, Millington, and Stirling along the Passaic River. Natural beauty from the Great Swamp National Wildlife Refuge meets suburban convenience. Residents enjoy parks, hiking trails, and family-friendly neighborhoods with a small-town vibe. Local events and volunteer groups sustain a tight-knit atmosphere. Proximity to major highways ensures easy travel across the region. The township is popular for its strong schools, upscale homes, and rail access.',
+    schools:
+      'Long Hill Township School District provides PreK–8 education before students attend Watchung Hills Regional High School, with consistently strong state performance (GreatSchools).',
+    commute:
+      'Gladstone Branch trains from Gillette, Millington, or Stirling stations offer Midtown Direct service to New York Penn in about 55 to 65 minutes and reach Newark Broad Street in roughly 35 to 45 minutes.'
+  },
+  {
+    slug: 'madison-nj',
+    name: 'Madison',
+    county: 'morris-county',
+    summary:
+      'Historic borough with lively downtown, top schools, and direct Midtown trains.',
+    description:
+      'Madison, known as the \'Rose City,\' combines a rich history with a thriving downtown. Drew University and Fairleigh Dickinson University contribute cultural life and youthful energy. The downtown is walkable with restaurants, coffee shops, and boutiques. Housing ranges from historic colonials and Victorians to modern luxury homes. Community events and preserved landmarks reinforce its historic character. Direct Midtown trains make it a prime location for commuters.',
+    schools:
+      'Madison Public Schools earn high marks for academics, arts, and athletics, with Madison High School recognized for strong AP participation (Niche).',
+    commute:
+      'Midtown Direct trains on the Morris & Essex Line run from Madison Station to New York Penn in about 50 to 60 minutes, and Newark is about 30 to 40 minutes away.'
+  },
+  {
     slug: 'maplewood-nj',
     name: 'Maplewood',
     county: 'essex-county',
