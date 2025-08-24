@@ -963,6 +963,84 @@ export const TOWNS: Town[] = [
       'Hudson-Bergen Light Rail from 8th, 22nd, and 34th Street stations connects to PATH trains for Manhattan in about 45–60 minutes, and NJ Transit buses reach Journal Square or Port Authority in roughly 45–65 minutes.'
   },
   {
+    slug: 'north-bergen',
+    name: 'North Bergen',
+    county: 'hudson-county',
+    summary:
+      'Diverse township with Palisades views, parks, and strong bus access to NYC.',
+    description:
+      'North Bergen stretches from the Palisades cliffs to the Meadowlands with residential blocks, commercial corridors, and industry. Boulevard East offers sweeping Manhattan views and James J. Braddock Park brings 167 acres of lakes and trails. Housing ranges from mid-rise co-ops and garden apartments to newer riverfront developments. The township is one of Hudson County\'s most diverse, with vibrant Latin American culture and active small businesses. Its hillside location yields dramatic skyline vistas and local eateries reflect a mix of flavors. Residents enjoy quick trips to nearby Jersey City and Manhattan.',
+    schools:
+      'North Bergen School District runs neighborhood K–8 schools and North Bergen High with AP and CTE programs plus active sports and clubs.',
+    commute:
+      'NJ Transit buses and jitneys along Boulevard East and Bergenline Avenue reach Port Authority in roughly 20–40 minutes, and buses to Journal Square connect to PATH for Newark in about 35–55 minutes.'
+  },
+  {
+    slug: 'guttenberg',
+    name: 'Guttenberg',
+    county: 'hudson-county',
+    summary:
+      'Tiny Hudson town atop the Palisades with dense housing and quick NYC buses.',
+    description:
+      'Guttenberg spans just four blocks yet packs mid-rises, multifamily houses, and the landmark Galaxy Towers overlooking Manhattan. Boulevard East provides parks, walking paths, and postcard skyline views. The township maintains its own services despite its size, fostering close community ties. Housing remains relatively affordable compared to neighboring Weehawken and West New York. Residents can easily reach nearby shopping and dining corridors. Its compact footprint makes daily errands and commuting simple.',
+    schools:
+      'Anna L. Klein School serves PreK–8, and high schoolers attend North Bergen High, giving the district an intimate, community feel.',
+    commute:
+      'NJ Transit buses and private jitneys via Boulevard East reach Port Authority in about 20–35 minutes, and buses to Journal Square link with PATH trains to Newark.'
+  },
+  {
+    slug: 'secaucus',
+    name: 'Secaucus',
+    county: 'hudson-county',
+    summary:
+      'Meadowlands suburb with NJ Transit hub, outlet shopping, and riverfront housing.',
+    description:
+      'Secaucus mixes suburban neighborhoods with one of NJ Transit\'s busiest rail hubs at Secaucus Junction. Office parks and the Secaucus Outlets draw shoppers and commuters from across the region. Residential areas include single-family homes, townhouses, and new condos along the Hackensack River. Recreation centers, parks, and Meadowlands trails add outdoor options. Major highways like the Turnpike and Route 3 keep travel convenient. Entertainment venues tied to the Meadowlands sports complex sit minutes away.',
+    schools:
+      'Secaucus Public Schools offer technology integration, AP courses, and growing enrollment at community-based campuses.',
+    commute:
+      'Multiple NJ Transit lines from Secaucus Junction reach New York Penn Station in about 10–15 minutes, and buses via Route 3/495 arrive at Port Authority in roughly 25–40 minutes.'
+  },
+  {
+    slug: 'kearny',
+    name: 'Kearny',
+    county: 'hudson-county',
+    summary:
+      'Working-class town with Scottish roots, riverfront parks, and NJ Transit service.',
+    description:
+      'Kearny retains a strong community identity rooted in its Scottish heritage. Neighborhoods offer two- and three-family homes, apartments, and newer single-family builds. Riverfront parks and retail along Kearny Avenue provide local amenities. Housing is generally more affordable than in waterfront Hudson towns. Its location between Newark and Jersey City makes commuting convenient while preserving a small-city feel. Sports fields and local festivals reinforce civic pride.',
+    schools:
+      'Kearny School District features multiple neighborhood elementary schools and Kearny High with AP, honors, and performing arts programs.',
+    commute:
+      'NJ Transit buses run directly to Port Authority in about 30–45 minutes, and nearby Secaucus Junction offers rail to New York Penn Station in roughly 25–35 minutes.'
+  },
+  {
+    slug: 'harrison',
+    name: 'Harrison',
+    county: 'hudson-county',
+    summary:
+      'Redeveloped riverfront city with PATH service, Red Bull Arena, and new high-rises.',
+    description:
+      'Harrison has transformed its industrial waterfront into luxury apartments, retail, and entertainment anchored by Red Bull Arena. Its compact size keeps the city walkable with new restaurants and shops catering to young professionals. Housing options include high-rise rentals, townhomes, and older multifamily houses. Community events and waterfront promenades add vibrancy. Proximity to Newark and Jersey City broadens employment choices. The town\'s growth continues with ongoing transit-oriented development.',
+    schools:
+      'Harrison Public Schools operate a small district where Harrison High offers AP, CTE, and bilingual programs supported by strong community involvement.',
+    commute:
+      'PATH trains from Harrison Station reach the World Trade Center in about 18–22 minutes and Newark Penn Station in 5–7 minutes.'
+  },
+  {
+    slug: 'east-newark',
+    name: 'East Newark',
+    county: 'hudson-county',
+    summary:
+      'Tiny borough with affordable housing and easy walk to Harrison PATH.',
+    description:
+      'East Newark borders Harrison and Newark\'s Ironbound, consisting mainly of two- and three-family homes. Its small grid is highly walkable with neighborhood shops close at hand. Housing costs rank among the most affordable in Hudson County. Residents rely on nearby Harrison for larger retail, dining, and entertainment. Community events and local parks support a tight-knit atmosphere. Its location offers quick access to regional transit and highways.',
+    schools:
+      'East Newark School District runs a single K–8 school, and students attend Harrison High School for grades 9–12.',
+    commute:
+      'A short walk to Harrison Station gives residents PATH service to the World Trade Center in roughly 20–25 minutes and to Newark Penn Station in about 5–7 minutes.'
+  },
+  {
     slug: 'edison-nj',
     name: 'Edison',
     county: 'middlesex-county',
