@@ -6,7 +6,7 @@ export type County = {
 export type Town = {
   slug: string;
   name: string;
-  county: string; // county slug
+  county: County['slug']; // county slug
   summary: string;
   description: string; // six sentences
   schools: string;
