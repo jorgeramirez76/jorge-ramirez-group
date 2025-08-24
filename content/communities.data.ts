@@ -1168,5 +1168,148 @@ export const TOWNS: Town[] = [
       'Milltown Public Schools serve K–8 locally, while high schoolers attend Spotswood High School.',
     commute:
       'Suburban Transit buses from the Route 18 park-and-ride reach Manhattan in about 55 to 75 minutes, and trains from nearby New Brunswick Station reach New York in about 60 to 80 minutes and Newark in 30 to 40 minutes.'
+  },
+  {
+    slug: 'monroe-township',
+    name: 'Monroe Township',
+    county: 'middlesex-county',
+    summary:
+      'Large suburban-rural township with retirement communities, open space, and golf courses.',
+    description:
+      "Monroe Township spans southern Middlesex County with a blend of suburban subdivisions and preserved farmland. The township hosts one of New Jersey's largest concentrations of adult retirement communities. Golf courses, parks, and Forsgate Country Club offer recreation for residents of all ages. New single-family neighborhoods and townhome developments continue to attract families. Despite growth, Monroe retains pockets of semi-rural character and open space. Its location near the New Jersey Turnpike (Exit 8A) provides convenient highway access.",
+    schools:
+      'Monroe Township School District serves a growing population with AP, STEM, and performing arts programs (GreatSchools).',
+    commute:
+      'Coach USA/Suburban Transit express buses from Applegarth Road and Turnpike park-and-rides reach Port Authority in about 60 to 80 minutes, and express buses to Newark Penn take roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'north-brunswick',
+    name: 'North Brunswick',
+    county: 'middlesex-county',
+    summary:
+      'Large suburban township with diverse housing, major retail, and growing development.',
+    description:
+      'North Brunswick features a mix of residential neighborhoods and Route 1 commercial corridors. MainStreetNB is bringing new transit-oriented development near a planned rail station. Housing choices range from condos and townhomes to established single-family sections. Large retail centers and local parks provide everyday convenience. The community is notably diverse and continues to attract new residents. Its location between Princeton and New Brunswick keeps commuting options flexible.',
+    schools:
+      'North Brunswick Township Schools emphasize inclusivity, AP and STEM programs, and strong extracurricular participation (GreatSchools).',
+    commute:
+      'Suburban Transit express buses along Routes 130 and 1 reach Manhattan in about 55 to 70 minutes, while trains via New Brunswick or Jersey Avenue stations reach Newark in roughly 25 to 40 minutes and New York in about 60 to 80 minutes.'
+  },
+  {
+    slug: 'old-bridge',
+    name: 'Old Bridge',
+    county: 'middlesex-county',
+    summary:
+      'Expansive township with suburban neighborhoods, waterfront parks, and Route 9 retail.',
+    description:
+      'Old Bridge spans from the Raritan Bay waterfront inland to suburban neighborhoods. Route 9 acts as the township\'s shopping and commuting spine. Housing ranges from traditional subdivisions and condos to adult communities near the shore. Residents enjoy recreation at Cheesequake State Park and Laurence Harbor. The community mixes longtime residents with newcomers seeking space and affordability. Its large size and diverse amenities support a wide demographic.',
+    schools:
+      'Old Bridge Township Public Schools serve a large, diverse population, with Old Bridge High School offering AP, STEM, and career programs (GreatSchools).',
+    commute:
+      'NJ Transit and Academy express buses along Route 9 reach Port Authority in about 55 to 75 minutes, and buses to Newark Penn typically take 40 to 60 minutes.'
+  },
+  {
+    slug: 'perth-amboy',
+    name: 'Perth Amboy',
+    county: 'middlesex-county',
+    summary:
+      'Historic waterfront city with diverse housing, cultural amenities, and NJCL rail.',
+    description:
+      'Perth Amboy is a historic port city along the Raritan Bay. A revitalized waterfront and marinas highlight its maritime heritage. Smith Street\'s shops and restaurants reflect the city\'s cultural diversity. Housing includes multifamily homes, historic colonials, and new condos. Civic pride shines through festivals and community events. Affordability and transit access draw both longtime families and new residents.',
+    schools:
+      'Perth Amboy Public Schools support a large multilingual population and offer AP, bilingual, and CTE programs (GreatSchools).',
+    commute:
+      'North Jersey Coast Line trains from Perth Amboy Station reach New York Penn in about 55 to 70 minutes and Newark Penn in roughly 35 to 45 minutes.'
+  },
+  {
+    slug: 'piscataway',
+    name: 'Piscataway',
+    county: 'middlesex-county',
+    summary:
+      'Large township with Rutgers campus, suburban neighborhoods, and Raritan River parks.',
+    description:
+      "Piscataway hosts residential neighborhoods alongside Rutgers University's Busch and Livingston campuses. Corporate parks and research facilities line its highway corridors. Johnson Park along the Raritan River offers trails, a zoo, and sports fields. Housing ranges from split-levels and ranches to new townhome developments. The township's diversity and community programs keep civic life active. University ties bring cultural events and innovation.",
+    schools:
+      'Piscataway Township Schools provide AP, STEM, and magnet programs with strong athletics and arts (GreatSchools).',
+    commute:
+      'Residents use nearby Edison or New Brunswick stations for trains to New York in about 50 to 65 minutes and to Newark in roughly 25 to 35 minutes; Coach USA buses along Route 18 offer another option.'
+  },
+  {
+    slug: 'sayreville',
+    name: 'Sayreville',
+    county: 'middlesex-county',
+    summary:
+      'Suburban-riverfront township with Raritan Bay access, Route 9 shopping, and cultural diversity.',
+    description:
+      'Sayreville stretches from the Raritan River to Route 9 retail corridors. Waterfront parks and marinas showcase its riverfront setting. Suburban neighborhoods feature ranches, capes, and new subdivisions. The Starland Ballroom anchors a regional concert scene. Community festivals celebrate the township\'s cultural diversity. Easy access to the Garden State Parkway and Route 9 supports commuting.',
+    schools:
+      'Sayreville Public Schools serve a diverse student body, and Sayreville War Memorial High School offers AP, STEM, and athletics (GreatSchools).',
+    commute:
+      'Academy and NJ Transit buses via Route 9 reach Port Authority in about 55 to 75 minutes, and express buses to Newark typically take 40 to 55 minutes.'
+  },
+  {
+    slug: 'south-amboy',
+    name: 'South Amboy',
+    county: 'middlesex-county',
+    summary:
+      'Bayfront city with NJCL rail service, ferry access, and waterfront redevelopment.',
+    description:
+      'South Amboy sits on Raritan Bay with a rich maritime history. The city is redeveloping its waterfront with new housing and a planned ferry terminal. Traditional multi-family homes line its grid of walkable streets. Small shops and eateries cluster near the station. Residents enjoy affordability paired with strong transit options. Its bayfront location provides scenic views and recreation.',
+    schools:
+      'South Amboy Public Schools offer AP and career programs in a small, community-oriented district (GreatSchools).',
+    commute:
+      'North Jersey Coast Line trains from South Amboy Station reach New York Penn in about 50 to 65 minutes and Newark Penn in roughly 30 to 40 minutes, and a developing ferry service promises 35 to 50 minute rides to Manhattan.'
+  },
+  {
+    slug: 'south-plainfield',
+    name: 'South Plainfield',
+    county: 'middlesex-county',
+    summary:
+      'Suburban township with strong schools, shopping centers, and community parks.',
+    description:
+      'South Plainfield offers middle-class neighborhoods and excellent municipal services. Hadley Road and Park Avenue host numerous shopping centers. Spring Lake Park and community fields support active recreation. Housing styles include ranches, split-levels, and newer colonials. Civic groups and youth programs foster community pride. Its central location provides easy access to major highways and employment hubs.',
+    schools:
+      'South Plainfield Public Schools offer AP, CTE, and extracurricular programs in a community-focused environment (GreatSchools).',
+    commute:
+      'Commuters use nearby Edison or Metuchen stations for trains to New York in about 55 to 70 minutes and to Newark in roughly 25 to 35 minutes; Coach USA buses from the Route 22 corridor provide alternatives.'
+  },
+  {
+    slug: 'south-river',
+    name: 'South River',
+    county: 'middlesex-county',
+    summary:
+      'Diverse small borough with strong cultural heritage and affordable housing.',
+    description:
+      'South River is a compact borough with a rich Portuguese and Eastern European heritage. The downtown features local shops, churches, and restaurants reflecting its diversity. Housing ranges from capes and colonials to multifamily dwellings. Annual festivals and parades reinforce community spirit. Residents value the borough\'s affordability and small-town scale. Proximity to East Brunswick provides additional shopping and services.',
+    schools:
+      'South River Public Schools offer AP courses, strong athletics, and a supportive community environment (GreatSchools).',
+    commute:
+      'Suburban Transit and Academy buses along Routes 18 and 9 reach Port Authority in about 55 to 75 minutes, while express buses to Newark take roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'spotswood',
+    name: 'Spotswood',
+    county: 'middlesex-county',
+    summary:
+      'Small suburban borough with strong schools and community feel.',
+    description:
+      'Spotswood delivers a family-oriented lifestyle with quiet neighborhoods and local parks. The borough\'s small downtown offers everyday conveniences and dining. Housing includes ranches, split-levels, and newer colonials on tree-lined streets. Recreation programs and community events keep residents connected. Its location along Route 18 places regional shopping minutes away. Strong schools and civic pride define the community.',
+    schools:
+      'Spotswood Public Schools serve students from Spotswood, Helmetta, and Milltown with AP, athletics, and extracurriculars (GreatSchools).',
+    commute:
+      'Suburban Transit buses from the Route 18 park-and-ride reach Manhattan in about 55 to 75 minutes, and buses via East Brunswick connect to Newark Penn in roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'woodbridge',
+    name: 'Woodbridge',
+    county: 'middlesex-county',
+    summary:
+      'Large, diverse township with multiple neighborhoods, shopping, and direct NEC/NJCL trains.',
+    description:
+      'Woodbridge Township encompasses multiple distinct sections from Iselin to Colonia. Major shopping centers like Woodbridge Center Mall anchor its retail scene. Neighborhoods range from postwar capes to modern townhomes and luxury apartments. Recreational facilities and cultural events draw from a diverse population. Strategic positioning near the Turnpike and Parkway makes it a commuter powerhouse. Multiple rail stations offer direct service to both New York and Newark.',
+    schools:
+      'Woodbridge Township School District operates 25 schools with AP, STEM, and career programs at its three high schools (Niche).',
+    commute:
+      'Northeast Corridor and North Jersey Coast Line trains from Metropark, Avenel, and Woodbridge stations reach New York Penn in about 35 to 50 minutes and Newark Penn in roughly 20 to 30 minutes; Suburban Transit and NJ Transit buses provide additional options.'
   }
 ];
