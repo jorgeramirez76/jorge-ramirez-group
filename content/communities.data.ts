@@ -669,6 +669,114 @@ export const TOWNS: Town[] = [
       'Montclair-Boonton Line trains from Mountain Lakes Station reach Hoboken with Midtown transfers in about 65 to 80 minutes and Newark in roughly 50 to 65 minutes.'
   },
   {
+    slug: 'pequannock-township-nj',
+    name: 'Pequannock Township',
+    county: 'morris-county',
+    summary: 'Family-friendly township with suburban neighborhoods, parks, and strong community.',
+    description:
+      'Pequannock Township combines the neighborhoods of Pequannock and Pompton Plains. A strong sense of community and active recreation programs define the township. Highways like Route 23 and I-287 keep regional travel convenient. Housing ranges from affordable single-family homes to upscale developments. Pompton Plains serves as the commercial hub with shopping centers, restaurants, and community facilities. Quiet residential streets and parks give Pequannock a relaxed suburban feel.',
+    schools:
+      'Pequannock Township School District is recognized for solid academic performance and active parental involvement, with AP, honors, and athletics at Pequannock Township High School (GreatSchools).',
+    commute:
+      'Lakeland commuter buses along Route 23 reach Port Authority in about 50 to 70 minutes and also serve Newark in roughly 35 to 50 minutes.'
+  },
+  {
+    slug: 'randolph-nj',
+    name: 'Randolph',
+    county: 'morris-county',
+    summary: 'Large suburban township with top schools, parks, and family amenities.',
+    description:
+      'Randolph is a family-oriented township known for its excellent school district and spacious neighborhoods. Freedom Park, Randolph Trails, and numerous athletic complexes provide abundant recreation. Housing ranges from colonials and split-levels to larger estates on wooded lots. Community events and youth programs foster a strong sense of hometown pride. Residents enjoy convenient access to Routes 10, 46, and 80 for commuting. Its combination of amenities and open space keeps Randolph highly desirable.',
+    schools:
+      'Randolph Township Schools place Randolph High among New Jersey\'s top performers and offer extensive AP courses and extracurriculars (Niche).',
+    commute:
+      'Nearby Dover and Morris Plains stations on the Morris & Essex Line reach New York in about 65 to 80 minutes, while Lakeland buses make the trip in roughly 60 to 75 minutes and trains reach Newark in about 45 to 60 minutes.'
+  },
+  {
+    slug: 'riverdale-nj',
+    name: 'Riverdale',
+    county: 'morris-county',
+    summary: 'Small suburban borough with easy access to highways and shopping.',
+    description:
+      'Riverdale sits in northern Morris County with quick access to Route 23, I-287, and I-80. Condos, townhomes, and single-family houses make it popular with first-time buyers. The borough\'s small size fosters a close-knit community atmosphere. Local parks and recreation programs provide outdoor space for residents. Nearby shopping centers in Wayne and Parsippany add convenience. Its location balances suburban calm with commuter access.',
+    schools:
+      'Riverdale School District serves K–8 locally, and high school students attend Pompton Lakes High School with a small, personalized setting (GreatSchools).',
+    commute:
+      'Lakeland buses via Route 23 reach Port Authority in about 50 to 65 minutes and provide Newark service in roughly 35 to 50 minutes.'
+  },
+  {
+    slug: 'rockaway-borough-nj',
+    name: 'Rockaway Borough',
+    county: 'morris-county',
+    summary: 'Small historic borough with Main Street charm and suburban living.',
+    description:
+      'Rockaway Borough blends historic charm with suburban neighborhoods. Its downtown Main Street features local shops and restaurants. Residential areas include older capes, colonials, and newer homes. Adjacent Rockaway Township offers additional shopping and recreation, including Rockaway Townsquare Mall. Community programs and parks support a strong small-town identity. The borough provides a quiet lifestyle with convenient highway access.',
+    schools:
+      'Rockaway Borough School District educates K–8 at Lincoln and Thomas Jefferson Schools, with high schoolers attending Morris Hills in the regional district (GreatSchools).',
+    commute:
+      'Dover Station on the Morris & Essex Line offers trains to Midtown and Newark in about 65 to 80 and 45 to 55 minutes respectively, and Lakeland buses reach Port Authority in roughly 60 to 75 minutes.'
+  },
+  {
+    slug: 'rockaway-township-nj',
+    name: 'Rockaway Township',
+    county: 'morris-county',
+    summary: 'Large township with diverse neighborhoods, parks, and shopping centers.',
+    description:
+      'Rockaway Township is Morris County\'s most populous municipality, offering varied neighborhoods and abundant amenities. The township hosts Rockaway Townsquare Mall, Splitrock Reservoir, and Farny State Park. Housing ranges from condos and townhomes to expansive single-family developments. Recreation spans from hiking and boating to sports leagues and community events. Proximity to major highways keeps commuting manageable. Residents enjoy both suburban convenience and natural escapes.',
+    schools:
+      'Rockaway Township Public Schools operate multiple K–8 schools, with high school students attending Morris Hills or Morris Knolls in the regional district, emphasizing technology integration (GreatSchools).',
+    commute:
+      'Denville and Dover stations provide Montclair-Boonton and M&E Line service to New York in about 70 to 85 minutes and to Newark in roughly 50 to 65 minutes, while Lakeland buses along Route 80 run to Port Authority in about 60 to 80 minutes.'
+  },
+  {
+    slug: 'roxbury-nj',
+    name: 'Roxbury Township',
+    county: 'morris-county',
+    summary: 'Township with lake communities, shopping, and strong schools.',
+    description:
+      'Roxbury Township encompasses the communities of Succasunna, Kenvil, and Landing. Lake Hopatcong and Horseshoe Lake Park offer boating, trails, and sports fields. Housing spans lake cottages, suburban developments, and larger homes. Retail corridors along Routes 10 and 46 provide ample shopping and dining. Active recreation programs and community events draw families together. Its location along major highways maintains commuter convenience.',
+    schools:
+      'Roxbury Township Public Schools highlight AP and STEM programs at Roxbury High and robust extracurricular and music offerings (GreatSchools).',
+    commute:
+      'Montclair-Boonton Line trains from nearby Mount Arlington or Netcong reach Hoboken with Midtown transfers in about 75 to 90 minutes and Newark in roughly 55 to 70 minutes, while Lakeland buses via Route 10 take about 65 to 85 minutes to Port Authority.'
+  },
+  {
+    slug: 'victory-gardens-nj',
+    name: 'Victory Gardens',
+    county: 'morris-county',
+    summary: 'Small urban borough with affordable housing and diverse community.',
+    description:
+      'Victory Gardens is Morris County\'s smallest municipality by area. Built as war-worker housing during World War II, it has evolved into a tight-knit, diverse community. Housing consists of duplexes, small single-family homes, and apartments. Its location next to Dover gives residents access to broader shopping, dining, and transit options. Local parks and community programs support neighborhood engagement. Affordable homes make it an accessible choice within the county.',
+    schools:
+      'Students attend Dover Public Schools, which offer AP and bilingual programs and emphasize diversity and inclusion (GreatSchools).',
+    commute:
+      'Dover Station on the M&E Line provides trains to Midtown in about 65 to 80 minutes and to Newark in roughly 45 to 60 minutes.'
+  },
+  {
+    slug: 'washington-township-nj',
+    name: 'Washington Township',
+    county: 'morris-county',
+    summary: 'Expansive rural-suburban township with farms, open space, and top schools.',
+    description:
+      'Washington Township occupies the county\'s western edge with preserved farmland and scenic roads. The communities of Long Valley and Schooley\'s Mountain offer small-town centers and equestrian estates. Housing ranges from historic farmhouses and colonials to new luxury developments. Outdoor recreation includes hiking at Schooley\'s Mountain Park and fishing in the South Branch of the Raritan River. Community festivals and farmers markets highlight its rural charm. Strong schools and quality of life draw families seeking space.',
+    schools:
+      'Washington Township School District serves local K–8 students, and high schoolers attend West Morris Central, noted for academic and extracurricular excellence (GreatSchools).',
+    commute:
+      'Lakeland buses via Routes 46 and 80 reach Port Authority in about 75 to 95 minutes and Newark in roughly 55 to 75 minutes.'
+  },
+  {
+    slug: 'wharton-nj',
+    name: 'Wharton',
+    county: 'morris-county',
+    summary: 'Historic borough with affordable homes, parks, and highway convenience.',
+    description:
+      'Wharton grew around 19th-century iron mining and retains a small-town feel. The borough offers affordable housing ranging from older homes to modest new builds. Hugh Force Park and other local green spaces provide recreation. Its location near Routes 15, 46, and I-80 keeps regional travel straightforward. Community events and programs maintain local pride. Residents benefit from proximity to Dover and Rockaway for expanded amenities.',
+    schools:
+      'Wharton Borough School District educates K–8 at Marie V. Duffy and MacKinnon Schools, with high school students attending Morris Hills (GreatSchools).',
+    commute:
+      'Dover Station on the M&E Line offers trains to New York in about 65 to 80 minutes and to Newark in roughly 45 to 60 minutes, while Lakeland buses via Route 80 reach Port Authority in around 65 to 80 minutes.'
+  },
+  {
     slug: 'maplewood-nj',
     name: 'Maplewood',
     county: 'essex-county',
