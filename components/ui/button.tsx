@@ -1,5 +1,6 @@
 import { clsx } from "clsx";
-import type { ButtonHTMLAttributes } from 'react';
+import { forwardRef } from "react";
+import type { ButtonHTMLAttributes } from "react";
 
 // Base styles shared by all button variants
 const baseStyles = "rounded-2xl px-5 py-3 transition";
@@ -16,7 +17,7 @@ const variantStyles = {
 // Tailwind classes keyed by size option
 const sizeStyles = { sm: "text-sm", md: "text-base", lg: "text-lg" } as const;
 
-type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: keyof typeof variantStyles;
   size?: keyof typeof sizeStyles;
 };
@@ -29,11 +30,21 @@ type Props = ButtonHTMLAttributes<HTMLButtonElement> & {
  * <Button variant="outline" size="sm">Click</Button>
  * ```
  */
-export function Button({ className, variant = "primary", size = "md", ...props }: Props) {
-  return (
-    <button
-      className={clsx(baseStyles, variantStyles[variant], sizeStyles[size], className)}
-      {...props}
-    />
-  );
-}
+export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  (
+    { className, variant = "primary", size = "md", type = "button", ...props },
+    ref
+  ) => {
+    return (
+      <button
+        ref={ref}
+        type={type}
+        className={clsx(baseStyles, variantStyles[variant], sizeStyles[size], className)}
+        {...props}
+      />
+    );
+  }
+);
+
+Button.displayName = "Button";
+
