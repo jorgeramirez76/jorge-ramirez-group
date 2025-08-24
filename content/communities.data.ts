@@ -288,6 +288,114 @@ export const TOWNS: Town[] = [
       'Residents typically use NJ Transit buses from neighboring Linden or Clark to reach New York in about 50 to 70 minutes, and similar routes connect to Newark in roughly 20 to 30 minutes.'
   },
   {
+    slug: 'boonton-nj',
+    name: 'Boonton',
+    county: 'morris-county',
+    summary: 'Historic town with lively Main Street, Victorian homes, and reservoir views.',
+    description:
+      'Boonton is a small, historic town with roots in the 1800s iron industry. Its lively Main Street is lined with restaurants, antique shops, and cafés. Many homes showcase charming Victorian architecture alongside newer developments. The town hosts an active arts scene and community events near Grace Lord Park. Scenic views of the Boonton Reservoir provide outdoor escapes. Residents appreciate its walkable downtown and commuter access while enjoying small-town character.',
+    schools:
+      'Boonton Public Schools serve local students and offer AP, STEM, and career programs at Boonton High School (GreatSchools).',
+    commute:
+      'Montclair-Boonton Line trains from Boonton Station reach Hoboken with transfers to Midtown in about 70 to 85 minutes, and Lakeland buses run to NYC in roughly 60 to 80 minutes.'
+  },
+  {
+    slug: 'boonton-township-nj',
+    name: 'Boonton Township',
+    county: 'morris-county',
+    summary: 'Quiet township with rural charm, spacious homes, and natural beauty.',
+    description:
+      'Boonton Township offers a rural-suburban setting of rolling hills and open land. Spacious homes on large lots and equestrian properties dot the landscape. Residents enjoy proximity to Tourne County Park and the Jersey City Reservoir. The township attracts those seeking privacy and tranquility with highway convenience. Local programs and seasonal events foster a neighborly atmosphere. Despite its serene feel, everyday shopping and dining are a short drive away.',
+    schools:
+      'Rockaway Valley School serves PreK–8, and students attend high-performing Mountain Lakes High School for grades 9–12 (GreatSchools).',
+    commute:
+      'Nearby Mountain Lakes and Denville stations offer Montclair-Boonton Line service to Hoboken/New York in about 65 to 85 minutes, and Lakeland buses reach Port Authority in roughly 55 to 75 minutes.'
+  },
+  {
+    slug: 'butler-nj',
+    name: 'Butler',
+    county: 'morris-county',
+    summary: 'Historic borough with small-town character and affordable housing options.',
+    description:
+      'Butler is a historic borough once known for its manufacturing hub. Downtown buildings house local shops, eateries, and small businesses. Housing ranges from older single-family homes to condos and townhouses. Nearby parks and recreation provide outdoor opportunities for residents. Community events and local pride create a welcoming small-town feel. Easy access to Route 23 makes commuting convenient.',
+    schools:
+      'Butler Public Schools serve grades K–12 with AP offerings and a close-knit atmosphere at Butler High School (GreatSchools).',
+    commute:
+      'NJ Transit buses along Route 23 reach Port Authority in about 60 to 80 minutes, and buses also connect to Newark in roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'chatham-borough-nj',
+    name: 'Chatham Borough',
+    county: 'morris-county',
+    summary: 'Quaint borough with walkable downtown, top schools, and direct trains.',
+    description:
+      'Chatham Borough is known for its historic downtown and small-town charm. Boutique shops and cafés line tree-shaded streets near the station. Neighborhoods feature a mix of historic colonials and modern luxury homes. Local parks and civic pride support an active community calendar. Proximity to highways keeps regional travel straightforward. Its direct rail service makes it a top choice for NYC professionals.',
+    schools:
+      'The School District of the Chathams ranks among New Jersey’s best, offering AP, STEM, and arts programs at Chatham High School (Niche).',
+    commute:
+      'Midtown Direct trains from Chatham Station reach New York Penn Station in about 45 to 55 minutes with frequent service.'
+  },
+  {
+    slug: 'chatham-township-nj',
+    name: 'Chatham Township',
+    county: 'morris-county',
+    summary: 'Upscale township with estate-style homes, open space, and top schools.',
+    description:
+      'Chatham Township surrounds the borough with a more spacious suburban feel. Large lots and estate-style homes sit amid preserved green space. The Great Swamp National Wildlife Refuge offers extensive hiking trails. Neighborhoods are quiet yet minutes from shopping in Short Hills and Madison. The township’s prestige stems from its peaceful streets and strong schools. Commuters use nearby Chatham or Madison stations for direct trains to the city.',
+    schools:
+      'Students share the acclaimed School District of the Chathams, known for high AP participation and strong athletics (Niche).',
+    commute:
+      'Residents drive to Chatham or Madison stations for Midtown Direct trains reaching New York in roughly 45 to 60 minutes.'
+  },
+  {
+    slug: 'chester-borough-nj',
+    name: 'Chester Borough',
+    county: 'morris-county',
+    summary: 'Quaint borough with antique shops, historic character, and rural surroundings.',
+    description:
+      'Chester Borough is a quaint town surrounded by rolling countryside. Historic Main Street hosts antique shops, boutiques, and cafés. Residential streets feature colonials, capes, and unique historic homes. Seasonal festivals and markets draw visitors and bolster local pride. Parks and preserved land provide ample outdoor recreation. The borough maintains its character while remaining close to major routes.',
+    schools:
+      'Chester School District serves K–8, and students attend top-performing West Morris Mendham High School for grades 9–12 (GreatSchools).',
+    commute:
+      'Commuters drive to Morristown or Dover stations for M&E Line trains taking about 75 to 90 minutes to NYC, or use Lakeland buses in roughly 65 to 80 minutes.'
+  },
+  {
+    slug: 'chester-township-nj',
+    name: 'Chester Township',
+    county: 'morris-county',
+    summary: 'Expansive rural township with preserved land, farms, and upscale homes.',
+    description:
+      'Chester Township offers expansive rural scenery with preserved farmland. Large estates and equestrian properties line winding roads. Hacklebarney State Park and Black River County Park provide outdoor escapes. Residents enjoy privacy yet remain within reach of nearby shops and dining. Community events celebrate the township’s agricultural heritage. Its country setting appeals to those seeking luxury homes amid nature.',
+    schools:
+      'Students share Chester School District for K–8 and attend West Morris Mendham High School, noted for academics and athletics (GreatSchools).',
+    commute:
+      'Lakeland buses via Route 206 reach Port Authority in about 65 to 85 minutes, and Morristown or Dover stations offer train access in roughly 55 to 70 minutes.'
+  },
+  {
+    slug: 'denville-nj',
+    name: 'Denville',
+    county: 'morris-county',
+    summary: "Known as the 'Hub of Morris County,' with lakes, parks, and strong community.",
+    description:
+      "Denville is dubbed the 'Hub of Morris County' for its central location. Lakeside neighborhoods provide waterfront living and recreation. Downtown Denville features a lively mix of restaurants, shops, and cafés. Housing ranges from charming capes to lakefront estates. Active civic groups host parades and community events year-round. Major highways keep travel across North Jersey convenient.",
+    schools:
+      'Denville Township School District serves K–8 with technology integration, and high schoolers attend Morris Knolls in the Morris Hills Regional District (GreatSchools).',
+    commute:
+      'Denville Station offers Montclair-Boonton and M&E Line trains to Hoboken/New York in about 70 to 90 minutes, and Lakeland buses provide Midtown service in roughly 65 to 80 minutes.'
+  },
+  {
+    slug: 'dover-nj',
+    name: 'Dover',
+    county: 'morris-county',
+    summary: 'Historic town with cultural diversity, walkable downtown, and major rail hub.',
+    description:
+      'Dover is a historic rail and iron town with cultural diversity. Its walkable downtown hosts restaurants, shops, and community services. Housing options include historic homes, multi-family properties, and affordable rentals. Parks and local organizations support a strong sense of community. Residents enjoy festivals and cultural events reflecting the town’s heritage. As a major rail hub, Dover offers strong connectivity across the region.',
+    schools:
+      'Dover Public Schools feature AP courses, bilingual programs, and extensive extracurricular opportunities (GreatSchools).',
+    commute:
+      'NJ Transit’s M&E and Montclair-Boonton lines from Dover Station reach Hoboken with Midtown transfers in about 65 to 85 minutes and provide direct service to Newark in roughly 45 to 60 minutes.'
+  },
+  {
     slug: 'morristown-nj',
     name: 'Morristown',
     county: 'morris-county',
