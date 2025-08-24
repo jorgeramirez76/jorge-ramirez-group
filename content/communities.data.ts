@@ -573,6 +573,102 @@ export const TOWNS: Town[] = [
       'Midtown Direct trains on the Morris & Essex Line run from Madison Station to New York Penn in about 50 to 60 minutes, and Newark is about 30 to 40 minutes away.'
   },
   {
+    slug: 'mendham-borough-nj',
+    name: 'Mendham Borough',
+    county: 'morris-county',
+    summary: 'Quaint historic borough with top schools and a charming downtown.',
+    description:
+      'Mendham Borough is a picturesque community often called the hole in the doughnut because it is surrounded by Mendham Township. Its historic Main Street features boutique shops, cafes, and a classic small-town feel. Housing ranges from early American colonials to updated luxury homes on quiet streets. The borough maintains a strong sense of tradition with annual parades, fairs, and civic events. Parks and nearby preserves offer plentiful outdoor recreation. Residents value the excellent schools, tight-knit atmosphere, and scenic character.',
+    schools:
+      'Mendham Borough School District serves K–8 at Hilltop and Mountain View, and high schoolers attend highly ranked West Morris Mendham High School.',
+    commute:
+      'Nearby Morristown or Bernardsville stations on the M&E and Gladstone lines reach New York in about 65 to 80 minutes and Newark in roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'mendham-township-nj',
+    name: 'Mendham Township',
+    county: 'morris-county',
+    summary: 'Affluent township with rolling hills, large estates, and preserved land.',
+    description:
+      'Mendham Township surrounds the borough and is known for rolling hills and preserved land. Estate-style homes sit on multi-acre lots amid meadows and woodlands. Strict zoning maintains a rural character despite proximity to Morristown. Residents hike and ride horses in Schiff Nature Preserve and India Brook Park. Community groups host seasonal events that reinforce the township\'s tight-knit feel. Its prestige and quiet ambiance attract families seeking space and top-ranked schools.',
+    schools:
+      'Mendham Township School District runs highly rated elementary and middle schools, with students attending West Morris Mendham High School.',
+    commute:
+      'Trains to New York depart from nearby Morristown, Bernardsville, or Gladstone stations in about 65 to 85 minutes, and service to Newark takes roughly 40 to 55 minutes.'
+  },
+  {
+    slug: 'mine-hill-nj',
+    name: 'Mine Hill',
+    county: 'morris-county',
+    summary: 'Small township with suburban feel and convenient highway access.',
+    description:
+      'Mine Hill is a small residential township with a friendly suburban feel. Single-family homes span capes, ranches, and colonials along quiet streets. Residents enjoy local parks, playgrounds, and youth sports leagues. Its location near Routes 46, 10, and 80 offers easy shopping and job access. Community activities at Canfield Avenue School help bring neighbors together. Affordable housing and convenient highways make Mine Hill a practical choice for commuters.',
+    schools:
+      'Mine Hill Township School District educates K–6 at Canfield Avenue School, and older students attend Dover High School.',
+    commute:
+      'Nearby Dover Station on the Morris & Essex Line reaches Midtown with transfers in about 65 to 80 minutes and Newark in roughly 45 to 60 minutes.'
+  },
+  {
+    slug: 'montville-nj',
+    name: 'Montville',
+    county: 'morris-county',
+    summary: 'Affluent township with strong schools, suburban neighborhoods, and open space.',
+    description:
+      'Montville is an affluent township known for upscale neighborhoods and preserved open space. Luxury homes and townhome communities line winding, tree-filled roads. Residents hike Pyramid Mountain and explore community parks and trails. The township balances rural charm with easy access to Interstates 80 and 287. Local events and farmer\'s markets cultivate a friendly, family-oriented vibe. High-ranking schools and a strong quality of life keep Montville in high demand.',
+    schools:
+      'Montville Township Public Schools feature top-ranked Montville High and a district-wide focus on STEM, arts, and AP courses.',
+    commute:
+      'Towaco Station on the Montclair-Boonton Line offers trains to Hoboken with Midtown transfers in about 65 to 75 minutes and to Newark in 45 to 55 minutes, while Lakeland buses reach Port Authority in roughly 50 to 70 minutes.'
+  },
+  {
+    slug: 'morris-township-nj',
+    name: 'Morris Township',
+    county: 'morris-county',
+    summary: 'Expansive township surrounding Morristown with diverse housing and strong schools.',
+    description:
+      'Morris Township wraps around Morristown with a mix of suburban and semi-rural neighborhoods. Homes range from historic farmhouses to modern subdivisions and luxury estates. Patriot\'s Path and Fosterfields Living Historical Farm give residents ample outdoor space. The township benefits from Morristown\'s vibrant downtown and cultural attractions. Community programs and civic groups support an active, family-friendly atmosphere. Its size and diversity appeal to both young professionals and long-time residents.',
+    schools:
+      'The Morris School District serves the township and neighboring Morristown, highlighted by Morristown High School\'s AP, IB, and arts offerings.',
+    commute:
+      'Residents use Morristown Station on the Midtown Direct line for 55 to 65 minute trips to Penn Station and about 30 to 40 minutes to Newark.'
+  },
+  {
+    slug: 'mount-arlington-nj',
+    name: 'Mount Arlington',
+    county: 'morris-county',
+    summary: 'Lake Hopatcong community with strong recreation and rail access.',
+    description:
+      'Mount Arlington nestles along the shores of Lake Hopatcong, New Jersey\'s largest lake. The borough features lakefront cottages, condos, and suburban homes. Boating, fishing, and waterfront parks define its recreational lifestyle. Seasonal visitors mix with year-round residents who enjoy the scenic setting. Community events and marinas foster a friendly small-town feel. Direct rail and highway connections keep Mount Arlington convenient for commuters.',
+    schools:
+      'Mount Arlington School District runs local K–8 schools, and students attend Roxbury High School for grades 9–12.',
+    commute:
+      'Montclair-Boonton Line trains from Mount Arlington Station reach Hoboken with Midtown transfers in about 75 to 90 minutes and Newark in roughly 55 to 65 minutes.'
+  },
+  {
+    slug: 'mount-olive-nj',
+    name: 'Mount Olive',
+    county: 'morris-county',
+    summary: 'Large township with diverse neighborhoods, shopping, and transit options.',
+    description:
+      'Mount Olive encompasses the communities of Budd Lake and Flanders in western Morris County. Housing ranges from starter homes and condos to expansive luxury properties. Budd Lake and Turkey Brook Park provide boating, sports fields, and hiking trails. Retail centers along Route 46 offer shopping and dining for residents. The township hosts festivals and recreation programs that unite its large population. Commuters appreciate access to I-80 and NJ Transit service from nearby stations.',
+    schools:
+      'Mount Olive Township School District boasts a highly rated high school with extensive AP and arts programs and integrated STEM across grades.',
+    commute:
+      'Netcong and Mount Olive stations on the Montclair-Boonton Line offer trains to Hoboken with Midtown transfers in about 75 to 90 minutes and to Newark in roughly 55 to 70 minutes, while Lakeland buses provide service to Port Authority in about 65 to 85 minutes.'
+  },
+  {
+    slug: 'mountain-lakes-nj',
+    name: 'Mountain Lakes',
+    county: 'morris-county',
+    summary: 'Prestigious lake community with Tudor-style homes and natural beauty.',
+    description:
+      'Mountain Lakes is a prestigious community noted for its signature Tudor-style architecture. Several spring-fed lakes weave through the borough, creating scenic vistas and recreation. A strong civic association organizes clubs, beach activities, and neighborhood events. The housing stock includes grand early twentieth-century homes and select modern builds. Residents prize the quiet ambiance and proximity to parks and regional highways. Top-rated schools and an engaged community make Mountain Lakes highly desirable.',
+    schools:
+      'Mountain Lakes School District, including top-ranked Mountain Lakes High School, offers rigorous AP, STEM, and arts opportunities.',
+    commute:
+      'Montclair-Boonton Line trains from Mountain Lakes Station reach Hoboken with Midtown transfers in about 65 to 80 minutes and Newark in roughly 50 to 65 minutes.'
+  },
+  {
     slug: 'maplewood-nj',
     name: 'Maplewood',
     county: 'essex-county',
