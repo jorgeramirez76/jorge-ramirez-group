@@ -408,16 +408,17 @@ export const TOWNS: Town[] = [
       'Midtown Direct service on the Morris & Essex Line connects Morristown Station to Penn Station in about 50 to 60 minutes, and commuters can also use buses or drive via I-287 and Route 24.'
   },
   {
-    slug: 'hoboken-nj',
+    slug: 'hoboken',
     name: 'Hoboken',
     county: 'hudson-county',
-    summary: 'Compact waterfront city known for nightlife, brownstones, and PATH access.',
+    summary:
+      'Ultra-walkable brownstone city with waterfront parks, dining, and direct PATH/ferry to Manhattan.',
     description:
-      'Hoboken sits on the Hudson River with sweeping Manhattan views. Historic brownstones share blocks with modern high-rises. The mile-square city buzzes with bars, restaurants, and waterfront parks. Its small footprint makes daily errands easily walkable. Annual festivals and street fairs add to the community vibe. Fast transit links keep it a favorite for New York professionals.',
+      'Hoboken pairs historic brownstones and tree-lined streets with a modern waterfront lined by parks, piers, and skyline views. Washington Street anchors a lively dining and retail scene, while the south waterfront and 14th Street corridor add upscale residences and restaurants. Residents love the car-optional lifestyle—nearly everything from groceries and gyms to cafés and daycare sits a short walk away. Housing runs from prewar walk-ups and classic rowhomes to luxury doorman condos with amenities. The city is known for active community programming and riverfront jogging and biking paths. Hoboken\'s vibrant nightlife and year-round festivals keep the mile-square city lively.',
     schools:
-      'Hoboken Public Schools and a range of charters offer STEM and arts-focused curricula.',
+      'Hoboken Public Schools offer AP courses and themed K–8 schools, while popular charters and private options expand choice.',
     commute:
-      'PATH trains from Hoboken Terminal reach World Trade Center in about 10 minutes and 33rd Street in roughly 15 minutes, and NY Waterway ferries and buses broaden commute options.'
+      'PATH trains from Hoboken Terminal reach 33rd Street or the World Trade Center in roughly 10–18 minutes, and NY Waterway ferries make the Manhattan trip in about 8–15 minutes.'
   },
   {
     slug: 'new-brunswick-nj',
@@ -897,16 +898,69 @@ export const TOWNS: Town[] = [
       'NJ Transit buses via I-280 and Route 10 run frequently to Port Authority in about 40 to 60 minutes, and buses reach Newark Penn Station in roughly 20 to 30 minutes for trains into Manhattan.'
   },
   {
-    slug: 'jersey-city-nj',
+    slug: 'jersey-city',
     name: 'Jersey City',
     county: 'hudson-county',
-    summary: 'Vibrant waterfront city with PATH trains, ferries, and diverse neighborhoods.',
+    summary:
+      'NYC-adjacent metropolis with booming neighborhoods, waterfront towers, and PATH/HBLR/ferry access.',
     description:
-      'Jersey City stretches along the Hudson with a skyline rivaling Manhattan. Downtown and Journal Square have seen rapid redevelopment and an influx of restaurants and art spaces. Historic brownstones line neighborhoods like Hamilton Park while high-rises tower near the waterfront. Liberty State Park and numerous smaller parks offer green relief. The city\'s diversity fuels a broad food scene and community festivals. Residents enjoy proximity to New York without losing local flavor.',
+      'Jersey City blends historic brownstone districts like Paulus Hook, Van Vorst Park, and Hamilton Park with modern high-rises rising in the Waterfront and Journal Square. Grove Street and Newark Avenue form a pedestrian-friendly restaurant and nightlife spine, while the Heights and Bergen-Lafayette add fast-growing residential scenes and parks. Liberty State Park offers sweeping harbor views, trails, and ferries to Ellis Island and the Statue of Liberty. Housing spans prewar walk-ups, renovated townhomes, luxury rentals and condos with amenities, and single-family pockets. The city\'s size supports multiple retail corridors, art galleries, food halls, and year-round community events. Its waterfront skyline rivaling Manhattan reflects the city\'s rapid growth.',
     schools:
-      'Jersey City Public Schools and an array of charter schools provide bilingual, STEM, and arts-focused options.',
+      'Jersey City Public Schools feature magnets like McNair Academic with top outcomes, wide AP and honors selections, and a large charter and private network for added choice.',
     commute:
-      'PATH trains from multiple stations reach the World Trade Center in about 10 minutes and Midtown in roughly 20; ferries and buses add more NYC connections.'
+      'PATH trains from Exchange Place, Grove Street, Journal Square, and Newport reach the World Trade Center or 33rd Street in about 5–25 minutes, and NY Waterway ferries offer additional Midtown and Downtown routes.'
+  },
+  {
+    slug: 'weehawken',
+    name: 'Weehawken',
+    county: 'hudson-county',
+    summary:
+      'Bluff-top and waterfront living with postcard Manhattan views and premier ferry access.',
+    description:
+      'Weehawken stretches from the Hudson River waterfront up the Palisades, yielding dramatic skyline vistas. Port Imperial is a modern waterfront district of luxury condos, rentals, a riverfront promenade, and restaurants, while the upland Heights area features single-family homes and classic apartment houses. Parks like Hamilton Park and Weehawken Waterfront Park offer fields, a track, pool, and playgrounds. The township is prized for fast cross-Hudson commutes, modern housing stock on the waterfront, and calmer streets compared to neighboring urban centers. Residents enjoy community events and easy access to nearby Hoboken and Jersey City. The combination of scenic views and transportation options keeps demand strong.',
+    schools:
+      'Weehawken School District serves K–12 with AP courses and strong arts programs in a small, close-knit environment.',
+    commute:
+      'NY Waterway ferries from Port Imperial reach Midtown or the World Trade Center in about 8–12 minutes, and NJ Transit buses on Boulevard East arrive at Port Authority in roughly 20–35 minutes.'
+  },
+  {
+    slug: 'west-new-york',
+    name: 'West New York',
+    county: 'hudson-county',
+    summary:
+      'Densely populated “Boulevard East” town with big views and quick bus/ferry access.',
+    description:
+      'West New York packs a lively, walkable urban grid atop the Palisades and along the Hudson waterfront. Boulevard East provides sweeping skyline views and a green promenade, while Bergenline Avenue is a retail and dining corridor with strong Latin American influences. Housing includes mid-rise co-ops and condos, prewar walk-ups, and newer waterfront towers. Residents value the convenience, cultural vibrancy, and abundant transit to Manhattan and Jersey City. Local parks, community events, and waterfront paths provide outdoor space in the dense environment. The town\'s mix of affordability and accessibility keeps it a popular Hudson County choice.',
+    schools:
+      'The West New York School District operates neighborhood PreK–8 schools and Memorial High School, offering AP/honors courses and extracurriculars.',
+    commute:
+      'NJ Transit buses and jitneys along Boulevard East and Bergenline Avenue reach Port Authority in about 20–35 minutes, and nearby Port Imperial ferries cross to Midtown or Downtown in roughly 12–18 minutes.'
+  },
+  {
+    slug: 'union-city',
+    name: 'Union City',
+    county: 'hudson-county',
+    summary:
+      'Ultra-dense, transit-rich city on the Palisades with fast bus runs to Midtown.',
+    description:
+      'Union City sits west of Hoboken atop the Palisades, featuring an energetic streetscape along Bergenline Avenue and a deep arts and culinary culture. Housing is primarily multifamily—prewar brick buildings, newer condos, and small single-family pockets—keeping entry costs lower than waterfront towns. Washington Park and Firefighters Memorial Park add recreation, sports fields, and public pools. The city\'s strong Latino heritage drives festivals, restaurants, and community organizations. Frequent bus service and proximity to Hoboken and Journal Square make car-free commuting easy. Union City\'s density and cultural vibrancy create a lively urban atmosphere.',
+    schools:
+      'Union City School District runs themed academies and Union City High School with AP, CTE, and performing arts options, plus robust ESL and bilingual programs.',
+    commute:
+      'NJ Transit buses and jitneys via Bergenline and Kennedy Boulevard reach Port Authority in about 15–30 minutes, and nearby PATH stations in Hoboken or Journal Square provide rapid service to Manhattan and Newark.'
+  },
+  {
+    slug: 'bayonne',
+    name: 'Bayonne',
+    county: 'hudson-county',
+    summary:
+      'Peninsula city with neighborhood feel, parks, and HBLR to Jersey City and Hoboken.',
+    description:
+      'Bayonne offers a more suburban, neighborhood vibe within Hudson County, with tree-lined blocks and classic one- and two-family homes. The Peninsula at Bayonne Harbor has sparked waterfront redevelopment with new mid-rises, markets, and promenades. Broadway serves as the main shopping and dining corridor, reflecting the city\'s diverse community. Veterans Stadium, 16th Street Park, and Stephen R. Gregg Park provide ample green and waterfront space. Residents appreciate local events and the tear-drop memorial honoring 9/11 victims. Its balance of affordability and transit access draws commuters seeking space near the city.',
+    schools:
+      'The Bayonne Board of Education operates neighborhood K–8 schools and Bayonne High School, which features AP, CTE, and arts programs.',
+    commute:
+      'Hudson-Bergen Light Rail from 8th, 22nd, and 34th Street stations connects to PATH trains for Manhattan in about 45–60 minutes, and NJ Transit buses reach Journal Square or Port Authority in roughly 45–65 minutes.'
   },
   {
     slug: 'edison-nj',
