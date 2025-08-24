@@ -334,5 +334,53 @@ export const TOWNS: Town[] = [
       'New Brunswick Public Schools partner with Rutgers to provide magnet and dual-enrollment opportunities.',
     commute:
       'NJ Transit\'s Northeast Corridor trains from New Brunswick Station reach Penn Station in about 45 to 60 minutes, while bus lines and nearby Route 18 connect to greater New York and New Jersey.'
+  },
+  {
+    slug: 'parsippany-nj',
+    name: 'Parsippany-Troy Hills',
+    county: 'morris-county',
+    summary: 'Large township with corporate campuses, varied neighborhoods, and commuter options.',
+    description:
+      'Parsippany-Troy Hills sprawls across northern Morris County with multiple business parks and lakes. Neighborhoods range from postwar capes to modern developments on winding streets. Community events and recreation programs give the large township a small-town touch. Residents enjoy parks like Lake Parsippany and Troy Meadows wetlands. Extensive shopping corridors line Route 46 and Route 10. Quick highway access keeps commutes flexible.',
+    schools:
+      'Parsippany-Troy Hills School District is known for strong academics, extracurricular clubs, and respected high schools.',
+    commute:
+      'Drivers reach NYC via Interstates 80 and 287 or NJ Transit buses; nearby Morris Plains or Mount Tabor stations offer trains that reach Penn Station in roughly 60 to 75 minutes.'
+  },
+  {
+    slug: 'maplewood-nj',
+    name: 'Maplewood',
+    county: 'essex-county',
+    summary: 'Beloved village with Midtown Direct trains and an artsy, inclusive vibe.',
+    description:
+      'Maplewood pairs tree-lined streets with a lively downtown known as Maplewood Village. Festivals, parades, and community theatre keep the town buzzing year-round. Homes range from classic colonials to Tudor-style houses and newer condos. The South Mountain Reservation provides hiking and expansive views. Residents value the town\'s commitment to diversity and the arts. Easy train access makes it a popular choice for Brooklyn and Manhattan transplants.',
+    schools:
+      'South Orange–Maplewood School District features magnet-style elementary schools, strong music programs, and a well-regarded high school.',
+    commute:
+      'Midtown Direct trains from Maplewood Station reach New York Penn Station in about 30 to 40 minutes, and express buses provide alternatives.'
+  },
+  {
+    slug: 'jersey-city-nj',
+    name: 'Jersey City',
+    county: 'hudson-county',
+    summary: 'Vibrant waterfront city with PATH trains, ferries, and diverse neighborhoods.',
+    description:
+      'Jersey City stretches along the Hudson with a skyline rivaling Manhattan. Downtown and Journal Square have seen rapid redevelopment and an influx of restaurants and art spaces. Historic brownstones line neighborhoods like Hamilton Park while high-rises tower near the waterfront. Liberty State Park and numerous smaller parks offer green relief. The city\'s diversity fuels a broad food scene and community festivals. Residents enjoy proximity to New York without losing local flavor.',
+    schools:
+      'Jersey City Public Schools and an array of charter schools provide bilingual, STEM, and arts-focused options.',
+    commute:
+      'PATH trains from multiple stations reach the World Trade Center in about 10 minutes and Midtown in roughly 20; ferries and buses add more NYC connections.'
+  },
+  {
+    slug: 'edison-nj',
+    name: 'Edison',
+    county: 'middlesex-county',
+    summary: 'Sprawling suburb with major transit hubs, shopping, and diverse housing.',
+    description:
+      'Edison sits at the crossroads of central New Jersey with sprawling neighborhoods and retail corridors. The township hosts corporate offices alongside quiet residential areas. Roosevelt Park and the nearby Raritan River give residents outdoor escapes. Ethnic restaurants and cultural centers reflect a vibrant community. New developments and established subdivisions provide a mix of housing options. Rutgers University and major employers sit just minutes away.',
+    schools:
+      'Edison Township Public Schools earn praise for STEM initiatives, Advanced Placement offerings, and competitive clubs.',
+    commute:
+      'Northeast Corridor trains from Edison Station reach New York Penn Station in about 45 to 60 minutes, and commuters can also use park-and-ride buses or the New Jersey Turnpike.'
   }
 ];
