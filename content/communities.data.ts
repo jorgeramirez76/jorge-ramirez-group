@@ -126,6 +126,162 @@ export const TOWNS: Town[] = [
       'Midtown Direct trains from Summit Station reach New York Penn Station in roughly 35 to 45 minutes, and express buses and nearby Route 24 offer additional commuting options.'
   },
   {
+    slug: 'kenilworth',
+    name: 'Kenilworth',
+    county: 'union-county',
+    summary: 'Tidy neighborhoods with easy access to commerce and parks.',
+    description:
+      'Kenilworth\'s compact grid makes daily errands simple and quick. Shops and restaurants line the Boulevard, giving residents convenient local options. Small parks and playgrounds sit within walking distance of most homes. Housing ranges from capes and colonials to newer infill construction. Community events and parades foster a close-knit civic pride. Its central location near Route 22 and the Garden State Parkway keeps regional travel straightforward.',
+    schools:
+      'Kenilworth Public Schools offer a small-town environment with active athletics and extracurriculars.',
+    commute:
+      'Many commuters drive or bike to Roselle Park or Union stations on the Raritan Valley Line for trains to Newark and New York in about 55 to 75 minutes, and NJ Transit buses run along local corridors.'
+  },
+  {
+    slug: 'linden',
+    name: 'Linden',
+    county: 'union-county',
+    summary: 'Northeast Corridor rail, diverse housing, and major retail corridors.',
+    description:
+      'Linden balances suburban blocks with industry and shopping along Routes 1 and 27. Redevelopment around the train station has added apartments and storefronts. Neighborhoods offer capes, colonials, and multi-family options. Residents enjoy parks, recreation programs, and community events. Major highways and Newark Airport lie minutes away. The city\'s multicultural dining scene reflects its varied population.',
+    schools:
+      'Linden Public Schools provide magnet and academy programs with expanding STEM and arts offerings.',
+    commute:
+      'Direct Northeast Corridor trains from Linden Station reach New York Penn Station in roughly 35 to 45 minutes, and commuter buses serve Port Authority and nearby job centers.'
+  },
+  {
+    slug: 'mountainside',
+    name: 'Mountainside',
+    county: 'union-county',
+    summary: 'Leafy enclave near Watchung Reservation with big-lot homes.',
+    description:
+      'Mountainside is prized for privacy and green space along the Watchung ridgeline. Many homes sit on oversized lots surrounded by mature trees. The community shares parks, pools, and summer events with neighboring towns. Shoppers head to nearby Westfield and Springfield for boutiques and dining. Residents appreciate quick drives to Route 22 and I-78. Nature lovers explore miles of trails in Watchung Reservation right at the town\'s edge.',
+    schools:
+      'Mountainside School District serves K–8 locally, with high school students attending Governor Livingston High in Berkeley Heights.',
+    commute:
+      'Residents typically drive to Summit or Westfield stations for trains to New York in about 55 to 75 minutes, and NJ Transit buses run along Route 22 toward Port Authority.'
+  },
+  {
+    slug: 'new-providence',
+    name: 'New Providence',
+    county: 'union-county',
+    summary: 'Sought-after suburb with Gladstone Branch rail and a polished downtown.',
+    description:
+      'New Providence features quiet streets lined with well-kept homes. A revitalized town center offers cafés, shops, and community gathering spots. Parks and upgraded recreation fields encourage outdoor activity. Residents celebrate seasonal festivals and concerts on the commons. Housing ranges from capes to luxury new builds, keeping demand high. Its location by the Passaic River provides a serene backdrop.',
+    schools:
+      'New Providence School District earns top marks for academics, music, and STEM programs.',
+    commute:
+      'Gladstone Branch trains from New Providence Station offer peak-hour direct service to New York Penn Station in about 50 to 70 minutes, with additional service to Hoboken.'
+  },
+  {
+    slug: 'plainfield',
+    name: 'Plainfield',
+    county: 'union-county',
+    summary: 'Architectural gems, arts revival, and RVL rail (two stations).',
+    description:
+      'Plainfield boasts grand Victorians and early twentieth-century homes in its historic districts. Downtown revitalization has brought new restaurants, galleries, and streetscape improvements. The city hosts cultural festivals celebrating its diverse population. Two Raritan Valley Line stations—Netherwood and Plainfield—serve commuters. Residential options include apartments, multi-family houses, and restored single-family residences. Proximity to highways adds driving convenience.',
+    schools:
+      'Plainfield Public Schools offer magnet and academy programs alongside active arts and athletics.',
+    commute:
+      'Raritan Valley Line trains from Netherwood or Plainfield stations reach New York Penn with a Newark transfer in about 65 to 85 minutes.'
+  },
+  {
+    slug: 'rahway',
+    name: 'Rahway',
+    county: 'union-county',
+    summary: 'Arts-centered downtown with direct NEC/NJCL rail to NYC.',
+    description:
+      'Rahway\'s walkable core features the Union County Performing Arts Center and a growing dining scene. Modern apartments rise near the busy rail hub. Leafy neighborhoods surround downtown, mixing historic and contemporary homes. Community art projects and festivals enliven public spaces. Major employers throughout the region are easily reachable via rail or highway. The Rahway River Park offers expansive recreational space.',
+    schools:
+      'Rahway Public Schools emphasize performing arts and expanding elective programs.',
+    commute:
+      'Direct Northeast Corridor and North Jersey Coast Line trains from Rahway Station reach New York Penn Station in approximately 35 to 45 minutes.'
+  },
+  {
+    slug: 'roselle',
+    name: 'Roselle',
+    county: 'union-county',
+    summary: 'Neighborhood streets with quick access to Elizabeth, Linden, and major routes.',
+    description:
+      'Roselle provides central access in Union County. Its residential blocks feature single-family homes and two-families. Local shopping and eateries sit along St. Georges Avenue and Raritan Road. Residents enjoy community parks and recreation programs. The borough\'s diverse population supports cultural organizations and events. Regional job centers in Elizabeth and Newark are minutes away.',
+    schools:
+      'Roselle Public Schools partner with community groups and offer growing extracurricular options.',
+    commute:
+      'Many commuters drive to nearby Elizabeth or Linden stations for trains to New York in about 55 to 75 minutes, while NJ Transit buses run directly to Port Authority and Newark.'
+  },
+  {
+    slug: 'roselle-park',
+    name: 'Roselle Park',
+    county: 'union-county',
+    summary: 'Compact borough with RVL station and growing dining scene.',
+    description:
+      'Roselle Park blends convenience and community in a one-square-mile footprint. Renovated homes and new restaurants cluster near the train station. Tree-lined residential blocks foster a small-town feel. Annual festivals and farmers markets bring neighbors together. Nearby shopping in Cranford and Union expands local options. The borough\'s location near the Garden State Parkway appeals to commuters.',
+    schools:
+      'Roselle Park Public Schools offer neighborhood schools with active arts and athletics programs.',
+    commute:
+      'Raritan Valley Line trains from Roselle Park Station reach New York Penn via Newark in roughly 55 to 70 minutes.'
+  },
+  {
+    slug: 'scotch-plains',
+    name: 'Scotch Plains',
+    county: 'union-county',
+    summary: 'Suburban township with parks, SPF schools, and RVL access via Fanwood.',
+    description:
+      'Scotch Plains stretches from bustling downtown streets to quiet neighborhoods near the Watchung Reservation. Community life centers on parks, golf courses, and recreation leagues. Housing spans historic farmhouses, mid-century ranches, and new construction. The township shares a strong school district with neighboring Fanwood. Local events and concerts reinforce a friendly, civic-minded culture. Shopping and dining options line Park Avenue and Route 22.',
+    schools:
+      'Scotch Plains–Fanwood Public Schools are known for highly regarded music programs and broad extracurricular offerings.',
+    commute:
+      'Residents often use Fanwood or Westfield stations on the Raritan Valley Line for trains to New York in about 60 to 75 minutes, and NJ Transit buses serve Midtown as well.'
+  },
+  {
+    slug: 'springfield',
+    name: 'Springfield',
+    county: 'union-county',
+    summary: 'Central location near Short Hills/Millburn/Summit with strong commuter access.',
+    description:
+      'Springfield\'s neighborhoods fan out from historic Morris Avenue. The town offers a mix of post-war homes and newer developments. Residents enjoy day-to-day conveniences and access to nearby regional malls. Parks and the Baltusrol Golf Club provide ample green space. Seasonal town events foster civic pride. Its location near major highways positions it well for commuters.',
+    schools:
+      'Springfield Public Schools maintain a close-knit environment and benefit from nearby county magnet programs.',
+    commute:
+      'Commuters typically drive to Short Hills, Millburn, or Summit stations for direct trains to New York in about 50 to 70 minutes, while buses run along Morris Avenue to Port Authority.'
+  },
+  {
+    slug: 'union',
+    name: 'Union',
+    county: 'union-county',
+    summary: 'Large township with Kean University, shopping, and RVL station.',
+    description:
+      'Union offers diverse housing from mid-century ranches to new townhomes. Morris Avenue and Route 22 provide extensive retail and dining choices. Kean University adds cultural events and youthful energy. Neighborhood parks and a busy community center support recreation. Annual parades and festivals showcase township pride. Its central county location keeps regional destinations within easy reach.',
+    schools:
+      'Union Public School District delivers comprehensive academics with clubs and athletics across grade levels.',
+    commute:
+      'Raritan Valley Line trains from Union Station reach New York Penn via Newark in about 50 to 65 minutes, and multiple NJ Transit bus routes serve Newark and Manhattan.'
+  },
+  {
+    slug: 'westfield',
+    name: 'Westfield',
+    county: 'union-county',
+    summary: 'Elegant downtown, classic homes, and RVL rail (transfer to NYC).',
+    description:
+      'Westfield blends upscale shopping and dining with postcard streets of colonials and tudors. A restored train station anchors the walkable downtown. Families gather at parks and attend longstanding community events. Housing ranges from historic mansions to newer luxury builds. Strong civic organizations support local arts and sports. Proximity to major highways aids regional travel.',
+    schools:
+      'Westfield Public Schools enjoy a high academic reputation with extensive extracurricular activities.',
+    commute:
+      'Raritan Valley Line trains from Westfield Station connect to New York Penn via Newark in roughly 55 to 70 minutes.'
+  },
+  {
+    slug: 'winfield',
+    name: 'Winfield',
+    county: 'union-county',
+    summary: 'Small community with quick access to Linden/Rahway corridors.',
+    description:
+      'Winfield is one of New Jersey\'s smallest municipalities, tucked along the Rahway River. The town\'s quiet streets feature modest single-family homes. Residents share amenities with neighboring Linden and Clark. Community events revolve around the local park and firehouse. Shopping, dining, and major transit are minutes away. The tight-knit populace prides itself on volunteerism.',
+    schools:
+      'Winfield Township School District provides a small-scale K–8 environment, with high school students attending Arthur L. Johnson High School in Clark.',
+    commute:
+      'Commuters rely on nearby Linden or Rahway stations for direct trains to New York in 40 to 60 minutes and can access express buses from surrounding corridors.'
+  },
+  {
     slug: 'morristown-nj',
     name: 'Morristown',
     county: 'morris-county',
