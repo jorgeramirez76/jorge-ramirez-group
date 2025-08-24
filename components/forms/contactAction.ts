@@ -1,5 +1,6 @@
 'use server';
 import { z } from 'zod';
+import { sendEmail } from '@/lib/email';
 
 const schema = z.object({
   subject: z.string().max(120).default('General Inquiry'),
@@ -31,6 +32,8 @@ export async function contactAction(_prevState: unknown, formData: FormData) {
         body: JSON.stringify({ ...parsed.data, ts: new Date().toISOString() })
       });
     }
+    const body = `Name: ${parsed.data.name}\nEmail: ${parsed.data.email}\nPhone: ${parsed.data.phone}\nCity: ${parsed.data.city ?? ''}\nMessage: ${parsed.data.message}`;
+    await sendEmail(parsed.data.subject, body);
     return { ok: true, error: null };
   } catch {
     return { ok: false, error: 'Submission failed. Please call 908-230-7844.' };
