@@ -19,7 +19,7 @@ export const COUNTIES: County[] = [
     slug: "union-county",
     name: "Union County",
     image:
-      "https://images.unsplash.com/photo-1581375273509-4fb8ef0642b6?auto=format&fit=crop&w=400&h=400&q=80",
+      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&h=400&q=80",
   },
   {
     slug: "morris-county",
@@ -37,13 +37,13 @@ export const COUNTIES: County[] = [
     slug: "hudson-county",
     name: "Hudson County",
     image:
-      "https://images.unsplash.com/photo-1506973035872-a4f23fd1c6dc?auto=format&fit=crop&w=400&h=400&q=80",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&h=400&q=80",
   },
   {
     slug: "middlesex-county",
     name: "Middlesex County",
     image:
-      "https://images.unsplash.com/photo-1590433235173-3b8500381bc1?auto=format&fit=crop&w=400&h=400&q=80",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
   },
 ];
 
