@@ -8,10 +8,10 @@ export function SiteFooter() {
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo/logo-primary.png"
+              src="/images/logo/logo-alt.jpg"
               alt="The Jorge Ramirez Group"
-              width={180}
-              height={48}
+              width={284}
+              height={118}
               className="h-8 w-auto"
             />
           </div>
