@@ -6,18 +6,18 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   return (
     <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur">
-      <div className="container h-20 flex items-center justify-between">
+      <div className="container h-40 flex items-center justify-between">
         <Link
           href="/"
           className="flex items-center gap-3"
           aria-label="The Jorge Ramirez Group"
         >
           <Image
-            src="https://placehold.co/320x80/000000/FFFFFF?text=JRG"
+            src="https://placehold.co/640x160/000000/FFFFFF?text=JRG"
             alt="The Jorge Ramirez Group"
-            width={320}
-            height={80}
-            className="h-20 w-auto"
+            width={640}
+            height={160}
+            className="h-40 w-auto"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-6">

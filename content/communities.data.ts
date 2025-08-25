@@ -18,28 +18,32 @@ export const COUNTIES: County[] = [
   {
     slug: "union-county",
     name: "Union County",
-    image: "https://placehold.co/400x400?text=Union%20County",
+    image:
+      "https://images.unsplash.com/photo-1581375273509-4fb8ef0642b6?auto=format&fit=crop&w=400&h=400&q=80",
   },
   {
     slug: "morris-county",
     name: "Morris County",
-    image: "https://placehold.co/400x400?text=Morris%20County",
+    image:
+      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&h=400&q=80",
   },
   {
     slug: "essex-county",
     name: "Essex County",
-    image: "https://placehold.co/400x400?text=Essex%20County",
+    image:
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=400&h=400&q=80",
   },
   {
     slug: "hudson-county",
     name: "Hudson County",
     image:
-      "https://images.unsplash.com/photo-1506973035872-a4f23fd1c6dc?ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      "https://images.unsplash.com/photo-1506973035872-a4f23fd1c6dc?auto=format&fit=crop&w=400&h=400&q=80",
   },
   {
     slug: "middlesex-county",
     name: "Middlesex County",
-    image: "https://placehold.co/400x400?text=Middlesex%20County",
+    image:
+      "https://images.unsplash.com/photo-1590433235173-3b8500381bc1?auto=format&fit=crop&w=400&h=400&q=80",
   },
 ];
 
