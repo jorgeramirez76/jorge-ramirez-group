@@ -10,7 +10,7 @@ export type Listing = {
   sqft?: number;
   image: string;
   url?: string;
-  status?: 'active' | 'pending' | 'sold';
+  status?: "active" | "pending" | "sold";
 };
 
 export interface IDXProvider {
@@ -19,10 +19,10 @@ export interface IDXProvider {
   byId(_id: string): Promise<Listing | null>;
 }
 
-import { mockProvider } from './mock';
+import { mockProvider } from "./mock";
 
 export function getIDX(): IDXProvider {
-  if (process.env.IDX_PROVIDER === 'mock') return mockProvider;
+  if (process.env.IDX_PROVIDER === "mock") return mockProvider;
   // Replace with your real provider implementation
   return mockProvider;
 }

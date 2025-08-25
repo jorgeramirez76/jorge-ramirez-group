@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy Policy | The Jorge Ramirez Group"
+  description: "Privacy Policy | The Jorge Ramirez Group",
 };
 export default function Page() {
   return (
@@ -11,7 +11,6 @@ export default function Page() {
       <div className="prose max-w-none mt-6">
         <p>Your privacy matters to us.</p>
       </div>
-      
     </div>
   );
 }
