@@ -4,17 +4,27 @@
 
 /* Branding tokens (can be extended in a separate branding.css if desired) */
 :root {
-  --brand-black: #0A0A0A;
-  --brand-white: #FFFFFF;
-  --brand-red: #E3252C;
+  --brand-black: #0a0a0a;
+  --brand-white: #fff;
+  --brand-red: #e3252c;
 }
 
 /* Smooth scroll */
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Luxury typography feel */
-h1, h2, h3 { @apply font-serif; }
-p, li { @apply text-neutral-800; }
+h1,
+h2,
+h3 {
+  @apply font-serif;
+}
+
+p,
+li {
+  @apply text-neutral-800;
+}
 
 /* Focus ring */
 :focus-visible {

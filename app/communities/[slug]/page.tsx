@@ -1,5 +1,5 @@
-import { COUNTIES, TOWNS } from '@/content/communities.data';
-import { notFound } from 'next/navigation';
+import { COUNTIES, TOWNS } from "@/content/communities.data";
+import { notFound } from "next/navigation";
 
 export const revalidate = 3600;
 
@@ -7,7 +7,11 @@ export async function generateStaticParams() {
   return [...COUNTIES, ...TOWNS].map((item) => ({ slug: item.slug }));
 }
 
-export default function CommunityPage({ params }: { params: { slug: string } }) {
+export default function CommunityPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
   const county = COUNTIES.find((c) => c.slug === params.slug);
   if (county) {
     const towns = TOWNS.filter((t) => t.county === county.slug);

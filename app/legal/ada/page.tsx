@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Accessibility (ADA)",
-  description: "Accessibility (ADA) | The Jorge Ramirez Group"
+  description: "Accessibility (ADA) | The Jorge Ramirez Group",
 };
 export default function Page() {
   return (
@@ -11,7 +11,6 @@ export default function Page() {
       <div className="prose max-w-none mt-6">
         <p>We strive to make our site accessible to all.</p>
       </div>
-      
     </div>
   );
 }

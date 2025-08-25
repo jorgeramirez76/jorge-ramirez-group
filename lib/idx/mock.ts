@@ -1,38 +1,46 @@
-import type { IDXProvider, Listing } from './provider';
+import type { IDXProvider, Listing } from "./provider";
 
 const demo: Listing[] = [
   {
-    id: 'demo-1',
-    address: '12 Oak St',
-    city: 'Summit',
-    state: 'NJ',
-    zip: '07901',
+    id: "demo-1",
+    address: "12 Oak St",
+    city: "Summit",
+    state: "NJ",
+    zip: "07901",
     price: 1595000,
     beds: 5,
     baths: 4,
     sqft: 3800,
-    image: '/images/listings/oak-st.jpg',
-    url: '/contact?interest=12-oak-st-summit-nj-07901',
-    status: 'active'
+    image:
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80",
+    url: "/contact?interest=12-oak-st-summit-nj-07901",
+    status: "active",
   },
   {
-    id: 'demo-2',
-    address: '45 Brook Ln',
-    city: 'Short Hills',
-    state: 'NJ',
-    zip: '07078',
+    id: "demo-2",
+    address: "45 Brook Ln",
+    city: "Short Hills",
+    state: "NJ",
+    zip: "07078",
     price: 3250000,
     beds: 6,
     baths: 6,
     sqft: 5200,
-    image: '/images/listings/brook-ln.jpg',
-    url: '/contact?interest=45-brook-ln-short-hills-nj-07078',
-    status: 'active'
-  }
+    image:
+      "https://images.unsplash.com/photo-1572120360610-d971b9e8a6d6?auto=format&fit=crop&w=800&q=80",
+    url: "/contact?interest=45-brook-ln-short-hills-nj-07078",
+    status: "active",
+  },
 ];
 
 export const mockProvider: IDXProvider = {
-  async featured(count = 12) { return demo.slice(0, count); },
-  async byCity(_city, count = 12) { return demo.slice(0, count); },
-  async byId(id) { return demo.find((d) => d.id === id) ?? null; }
+  async featured(count = 12) {
+    return demo.slice(0, count);
+  },
+  async byCity(_city, count = 12) {
+    return demo.slice(0, count);
+  },
+  async byId(id) {
+    return demo.find((d) => d.id === id) ?? null;
+  },
 };

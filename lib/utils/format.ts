@@ -1,4 +1,8 @@
 export const formatPrice = (n: number) =>
-  n.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+  n.toLocaleString("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+  });
 
-export const formatNumber = (n: number) => n.toLocaleString('en-US');
+export const formatNumber = (n: number) => n.toLocaleString("en-US");

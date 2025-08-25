@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "Terms of Use | The Jorge Ramirez Group"
+  description: "Terms of Use | The Jorge Ramirez Group",
 };
 export default function Page() {
   return (
@@ -11,7 +11,6 @@ export default function Page() {
       <div className="prose max-w-none mt-6">
         <p>Please read these terms carefully.</p>
       </div>
-      
     </div>
   );
 }

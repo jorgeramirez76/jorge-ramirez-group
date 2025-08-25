@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Fair Housing",
-  description: "Fair Housing | The Jorge Ramirez Group"
+  description: "Fair Housing | The Jorge Ramirez Group",
 };
 export default function Page() {
   return (
@@ -11,7 +11,6 @@ export default function Page() {
       <div className="prose max-w-none mt-6">
         <p>We support and practice the principles of Fair Housing.</p>
       </div>
-      
     </div>
   );
 }

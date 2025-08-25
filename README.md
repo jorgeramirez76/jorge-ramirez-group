@@ -35,7 +35,6 @@ GTM_ID=
 - Edit copy in `/content/*.json`
 - Listings live in `/content/listings.json`
 - Testimonials in `/content/testimonials.json`
-- Images in `/public/images/*` (use WebP if possible)
 
 ## Pages & IA
 
@@ -80,4 +79,4 @@ npx shadcn-ui@latest init
 
 ## Credits
 
-- Placeholder images are generated locally. Replace with your uploads or licensed/royalty‑free images and document sources in `/credits.md`.
+- Placeholder images are served from Unsplash and placehold.co. Replace with your uploads or licensed/royalty‑free images and document sources in `/credits.md`.

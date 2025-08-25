@@ -8,18 +8,29 @@ function SubmitButton() {
   return <button disabled={pending}>{pending ? "Sending…" : "Send"}</button>;
 }
 
-export default function ContactForm({ subject = "General Inquiry" }: { subject?: string }) {
+export default function ContactForm({
+  subject = "General Inquiry",
+}: {
+  subject?: string;
+}) {
   const [state, action] = useFormState(contactAction, {
     ok: false,
     error: null as string | null,
   });
   useEffect(() => {
-    if (state.ok) (document.getElementById("contact-form") as HTMLFormElement)?.reset();
+    if (state.ok)
+      (document.getElementById("contact-form") as HTMLFormElement)?.reset();
   }, [state.ok]);
   return (
     <form id="contact-form" action={action} className="contact">
       <input name="subject" defaultValue={subject} type="hidden" />
-      <input type="text" name="_hp" tabIndex={-1} autoComplete="off" style={{ display: 'none' }} />
+      <input
+        type="text"
+        name="_hp"
+        tabIndex={-1}
+        autoComplete="off"
+        style={{ display: "none" }}
+      />
       <input type="hidden" name="_ts" value={`${Date.now()}`} />
       <div className="row">
         <label>
@@ -74,9 +85,17 @@ export default function ContactForm({ subject = "General Inquiry" }: { subject?:
           color: #fff;
           cursor: pointer;
         }
-        .ok { color: green; }
-        .err { color: #b00020; }
-        @media (max-width: 720px) { .row { grid-template-columns: 1fr; } }
+        .ok {
+          color: green;
+        }
+        .err {
+          color: #b00020;
+        }
+        @media (max-width: 720px) {
+          .row {
+            grid-template-columns: 1fr;
+          }
+        }
       `}</style>
     </form>
   );
