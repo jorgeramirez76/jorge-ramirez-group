@@ -19,13 +19,21 @@ export default function HomePage() {
           <Image src="/images/hero.webp" alt="Luxury NJ real estate" fill priority className="object-cover opacity-70" />
         </div>
         <div className="container relative py-28 lg:py-40">
-          <h1 className="font-serif text-4xl md:text-6xl max-w-3xl">
+          <Image
+            src="/images/logo/logo-primary.png"
+            alt="The Jorge Ramirez Group"
+            width={320}
+            height={80}
+            className="mx-auto h-16 w-auto mb-8"
+            priority
+          />
+          <h1 className="font-serif text-4xl md:text-6xl max-w-3xl text-center">
             Sell for More. Buy with Confidence.
           </h1>
-          <p className="mt-6 max-w-2xl text-lg text-neutral-200">
+          <p className="mt-6 max-w-2xl text-lg text-neutral-200 mx-auto text-center">
             The Jorge Ramirez Group delivers concierge-level service and market intelligence across Central & Northern New Jersey.
           </p>
-          <div className="mt-8 flex flex-col sm:flex-row gap-4">
+          <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/sell"><Button size="lg" variant="primary">Get Your Home Value</Button></Link>
             <Link href="/contact"><Button size="lg" variant="outline">Book a Private Consultation</Button></Link>
           </div>
