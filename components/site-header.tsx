@@ -11,9 +11,9 @@ export function SiteHeader() {
           <Image
             src="/images/logo/logo-primary.png"
             alt="The Jorge Ramirez Group"
-            width={160}
-            height={40}
-            className="h-7 w-auto"
+            width={320}
+            height={80}
+            className="h-14 w-auto"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-6">

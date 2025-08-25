@@ -10,9 +10,9 @@ export function SiteFooter() {
             <Image
               src="/images/logo/logo-primary.png"
               alt="The Jorge Ramirez Group"
-              width={180}
-              height={48}
-              className="h-8 w-auto"
+              width={360}
+              height={96}
+              className="h-16 w-auto"
             />
           </div>
           <p className="mt-2 text-sm text-neutral-600">{siteConfig.tagline}</p>
