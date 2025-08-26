@@ -16,7 +16,13 @@ export default function HomePage() {
       <section className="relative bg-black text-white">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black/40" />
-          <Image src="/images/hero.webp" alt="Luxury NJ real estate" fill priority className="object-cover opacity-70" />
+          <Image
+            src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1920&q=80"
+            alt="Luxury NJ real estate"
+            fill
+            priority
+            className="object-cover opacity-70"
+          />
         </div>
         <div className="container relative py-28 lg:py-40">
           <h1 className="font-serif text-4xl md:text-6xl max-w-3xl">
