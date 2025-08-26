@@ -1,4 +1,10 @@
 import KeyFacts from '@/components/seo/KeyFacts';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Sell Your New Jersey Home',
+  description: 'Strategic pricing, concierge prep, and cinematic marketing for NJ sellers.'
+};
 
 export const revalidate = 86400;
 

@@ -1,6 +1,12 @@
 import { COUNTIES } from '@/content/communities.data';
 import Image from 'next/image';
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Communities We Serve',
+  description: 'Explore New Jersey counties and towns served by The Jorge Ramirez Group.'
+};
 
 export const revalidate = 3600;
 

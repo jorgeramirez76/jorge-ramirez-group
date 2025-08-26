@@ -1,11 +1,31 @@
 import { COUNTIES, TOWNS } from '@/content/communities.data';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
 
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
   return [...COUNTIES, ...TOWNS].map((item) => ({ slug: item.slug }));
+}
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const county = COUNTIES.find((c) => c.slug === params.slug);
+  if (county) {
+    return {
+      title: `${county.name} Communities`,
+      description: `Explore towns in ${county.name}, New Jersey.`
+    };
+  }
+  const town = TOWNS.find((t) => t.slug === params.slug);
+  if (town) {
+    const countyName = COUNTIES.find((c) => c.slug === town.county)?.name;
+    return {
+      title: `${town.name}, ${countyName} Real Estate`,
+      description: town.summary
+    };
+  }
+  return { title: 'Community' };
 }
 
 export default function CommunityPage({ params }: { params: { slug: string } }) {
