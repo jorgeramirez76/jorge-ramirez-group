@@ -29,7 +29,7 @@ const COUNTY_IMAGES: Record<string, { src: string; alt: string }> = {
 
 export default function Communities() {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="bg-black text-white min-h-screen [&_p]:text-white [&_li]:text-white">
       <main className="mx-auto max-w-[1120px] p-8">
         <h1>Communities</h1>
         <ul className="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-4">

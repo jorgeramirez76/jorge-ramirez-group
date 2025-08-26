@@ -83,7 +83,7 @@ const facts = [
 export default function SellPage() {
   const delay = 200;
   return (
-    <div className="bg-black text-white min-h-screen">
+    <div className="bg-black text-white min-h-screen [&_p]:text-white [&_li]:text-white">
       <main className="mx-auto max-w-[900px] p-8">
         <h1
           className="opacity-0 [animation:fade-up_0.5s_ease_forwards]"
