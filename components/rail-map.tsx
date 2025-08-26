@@ -1,5 +1,7 @@
 'use client';
+
 import { trainLines, TrainLine } from '@/lib/train-lines';
+import clsx from 'clsx';
 
 interface RailMapProps {
   onSelect: (line: TrainLine) => void;
@@ -8,28 +10,32 @@ interface RailMapProps {
 
 export function RailMap({ onSelect, selectedId }: RailMapProps) {
   return (
-    <div className="rounded-2xl overflow-hidden border">
-      <svg
-        viewBox="0 0 1600 1000"
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-full h-auto"
-      >
-        <rect width="1600" height="1000" fill="#ffffff" />
-        {trainLines.map((line) => (
-          <path
-            key={line.id}
-            d={line.path}
-            stroke={line.color}
-            strokeWidth={selectedId === line.id ? 8 : 6}
-            fill="none"
-            className="cursor-pointer transition-opacity"
-            onClick={() => onSelect(line)}
+    <div className="space-y-4">
+      {trainLines.map((line) => (
+        <button
+          key={line.id}
+          onClick={() => onSelect(line)}
+          className="flex items-center gap-4 w-full group"
+        >
+          <span
+            className="flex-1 h-1 rounded transition-opacity group-hover:opacity-100"
+            style={{
+              backgroundColor: line.color,
+              height: 6,
+              opacity: selectedId === line.id ? 1 : 0.4,
+            }}
           />
-        ))}
-      </svg>
-      <p className="sr-only">
-        Schematic map showing NJ Transit commuter paths between NYC and Union, Morris, and Essex counties.
-      </p>
+          <span
+            className={clsx(
+              'text-sm truncate',
+              selectedId === line.id ? 'text-white font-semibold' : 'text-neutral-400'
+            )}
+          >
+            {line.name}
+          </span>
+        </button>
+      ))}
+      <p className="sr-only">Select a transit line to view the towns it serves.</p>
     </div>
   );
 }

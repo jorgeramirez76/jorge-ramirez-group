@@ -7,28 +7,37 @@ export default function CommutingGuide() {
   const [selected, setSelected] = useState<TrainLine>(trainLines[0]);
 
   return (
-    <div className="container py-16">
-      <h1 className="font-serif text-4xl">Commuting Guide</h1>
-      <div className="mt-8 flex flex-col lg:flex-row gap-8">
-        <div className="flex-1">
-          <RailMap selectedId={selected.id} onSelect={setSelected} />
-        </div>
-        <div className="lg:w-1/3 border rounded-2xl p-6 bg-white">
-          <h2 className="font-serif text-2xl mb-4">Line Details</h2>
-          <p className="font-semibold flex items-center gap-2">
-            <span
-              className="w-4 h-4 rounded-full"
-              style={{ backgroundColor: selected.color }}
-            />
-            {selected.name}
+    <section className="bg-black text-white">
+      <div className="container py-16">
+        <div className="max-w-2xl">
+          <p className="uppercase text-sm tracking-wider text-neutral-400">Commuting Guide</p>
+          <h1 className="mt-2 font-serif text-4xl md:text-5xl">NJ Transit to NYC</h1>
+          <p className="mt-4 text-neutral-400">
+            Explore convenient commuting options from New Jersey&apos;s premier communities to New York City. Hover or click on transit lines to see the towns they serve.
           </p>
-          <ul className="mt-4 list-disc pl-5 space-y-1">
-            {selected.towns.map((town) => (
-              <li key={town}>{town}</li>
-            ))}
-          </ul>
+        </div>
+        <div className="mt-10 grid gap-8 lg:grid-cols-2">
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6">
+            <h2 className="font-serif text-2xl mb-6">Interactive Transit Map</h2>
+            <RailMap selectedId={selected.id} onSelect={setSelected} />
+          </div>
+          <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-6">
+            <h2 className="font-serif text-2xl mb-4">Line Details</h2>
+            <p className="font-semibold flex items-center gap-2">
+              <span
+                className="w-3 h-3 rounded-full"
+                style={{ backgroundColor: selected.color }}
+              />
+              {selected.name}
+            </p>
+            <ul className="mt-4 space-y-1 text-neutral-300">
+              {selected.towns.map((town) => (
+                <li key={town}>{town}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
