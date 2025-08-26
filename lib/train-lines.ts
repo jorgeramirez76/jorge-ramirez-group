@@ -16,7 +16,7 @@ export const trainLines: TrainLine[] = [
     id: 'raritan',
     name: 'Raritan Valley Line',
     color: '#A05E2D',
-    towns: ['High Bridge', 'Raritan', 'Somerville', 'Bound Brook', 'Dunellen', 'Plainfield', 'Westfield', 'Cranford', 'Union', 'Newark']
+    towns: ['High Bridge', 'Raritan', 'Somerville', 'Bound Brook', 'Dunellen', 'Plainfield', 'Westfield', 'Cranford', 'Roselle Park', 'Union', 'Newark']
   },
   {
     id: 'morris',

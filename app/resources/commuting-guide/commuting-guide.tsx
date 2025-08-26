@@ -1,7 +1,11 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 import { RailMap } from '@/components/rail-map';
 import { trainLines, TrainLine } from '@/lib/train-lines';
+import { TOWNS } from '@/content/communities.data';
+
+const townSlugMap = new Map(TOWNS.map((t) => [t.name.toLowerCase(), t.slug]));
 
 export default function CommutingGuide() {
   const [selected, setSelected] = useState<TrainLine>(trainLines[0]);
@@ -31,9 +35,20 @@ export default function CommutingGuide() {
               {selected.name}
             </p>
             <ul className="mt-4 space-y-1 text-neutral-300">
-              {selected.towns.map((town) => (
-                <li key={town}>{town}</li>
-              ))}
+              {selected.towns.map((town) => {
+                const slug = townSlugMap.get(town.toLowerCase());
+                return (
+                  <li key={town}>
+                    {slug ? (
+                      <Link href={`/communities/${slug}`} className="hover:underline">
+                        {town}
+                      </Link>
+                    ) : (
+                      town
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>
