@@ -35,12 +35,13 @@ const facts = [
 export default function BuyPage() {
   const delay = 200;
   return (
-    <main className="mx-auto max-w-[900px] p-8">
-      <h1
-        className="opacity-0 [animation:fade-up_0.5s_ease_forwards]"
-        style={{ animationDelay: `${0}ms` }}
-      >
-        Buy Confidently in Union • Morris • Essex • Hudson • Middlesex
+    <div className="bg-black text-white min-h-screen">
+      <main className="mx-auto max-w-[900px] p-8">
+        <h1
+          className="opacity-0 [animation:fade-up_0.5s_ease_forwards]"
+          style={{ animationDelay: `${0}ms` }}
+        >
+          Buy Confidently in Union • Morris • Essex • Hudson • Middlesex
       </h1>
 
       {steps.map((s, idx) => (
@@ -69,6 +70,7 @@ export default function BuyPage() {
           Start Your Purchase Plan
         </a>
       </p>
-    </main>
+      </main>
+    </div>
   );
 }
