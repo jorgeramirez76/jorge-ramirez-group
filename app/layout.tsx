@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { agentSchema } from '@/lib/seo/schema';
 import type { ReactNode } from 'react';
 import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className={inter.className}>
         <SiteHeader />
         {children}
+        <SiteFooter />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(agentSchema(site)) }}

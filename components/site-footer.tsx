@@ -27,6 +27,10 @@ export function SiteFooter() {
             <li><Link href="/sell">Sell</Link></li>
             <li><Link href="/communities">Communities</Link></li>
             <li><Link href="/listings">Listings</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/resources">Resources</Link></li>
+            <li><Link href="/commuting">Commuting</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
         <div className="text-sm">
