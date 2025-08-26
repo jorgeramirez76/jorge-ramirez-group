@@ -14,13 +14,6 @@ export default function HomePage() {
     <>
       <JsonLdOrganization />
       <section className="relative bg-black text-white">
-        <Image
-          src="/images/logo/logo-primary.png"
-          alt="The Jorge Ramirez Group logo"
-          width={160}
-          height={40}
-          className="absolute top-6 left-6 z-10 h-auto w-40"
-        />
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black/40" />
           <Image
