@@ -14,9 +14,22 @@ export default function HomePage() {
     <>
       <JsonLdOrganization />
       <section className="relative bg-black text-white">
+        <Image
+          src="/images/logo/logo-primary.png"
+          alt="The Jorge Ramirez Group logo"
+          width={160}
+          height={40}
+          className="absolute top-6 left-6 z-10 h-auto w-40"
+        />
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-black/40" />
-          <Image src="/images/hero.webp" alt="Luxury NJ real estate" fill priority className="object-cover opacity-70" />
+          <Image
+            src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1920&q=80"
+            alt="Luxury NJ real estate"
+            fill
+            priority
+            className="object-cover opacity-70"
+          />
         </div>
         <div className="container relative py-28 lg:py-40">
           <h1 className="font-serif text-4xl md:text-6xl max-w-3xl">
