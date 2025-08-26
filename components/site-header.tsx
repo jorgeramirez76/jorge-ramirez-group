@@ -9,10 +9,10 @@ export function SiteHeader() {
       <div className="container h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center" aria-label="The Jorge Ramirez Group">
           <Image
-            src="/images/logo/logo-primary.png"
+            src="/images/logo/logo-alt.jpg"
             alt="The Jorge Ramirez Group logo"
-            width={1188}
-            height={496}
+            width={284}
+            height={118}
             className="h-10 w-auto"
             priority
           />
