@@ -3,19 +3,19 @@ import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 export function SiteFooter() {
   return (
-    <footer className="border-t mt-20">
+    <footer className="border-t border-white/10 mt-20 bg-black text-white">
       <div className="container py-10 grid md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo/logo-primary.png"
+              src="/images/logo/logo-alt.jpg"
               alt="The Jorge Ramirez Group"
               width={180}
               height={48}
               className="h-8 w-auto"
             />
           </div>
-          <p className="mt-2 text-sm text-neutral-600">{siteConfig.tagline}</p>
+          <p className="mt-2 text-sm text-neutral-400">{siteConfig.tagline}</p>
           <p className="mt-4 text-sm">Keller Williams Premier Properties, Lic. # 1754604</p>
           <p className="mt-2 text-sm">488 Springfield Ave, Summit, NJ 07901</p>
           <p className="mt-2 text-sm"><a href={`tel:${siteConfig.phoneRaw}`}>{siteConfig.phoneDisplay}</a> • <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
@@ -27,6 +27,10 @@ export function SiteFooter() {
             <li><Link href="/sell">Sell</Link></li>
             <li><Link href="/communities">Communities</Link></li>
             <li><Link href="/listings">Listings</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/resources">Resources</Link></li>
+            <li><Link href="/commuting">Commuting</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
         <div className="text-sm">
@@ -37,7 +41,7 @@ export function SiteFooter() {
             <li><Link href="/legal/fair-housing">Fair Housing</Link></li>
             <li><Link href="/legal/ada">ADA</Link></li>
           </ul>
-          <p className="mt-4 text-neutral-500 text-xs">© {new Date().getFullYear()} {siteConfig.shortName}. All rights reserved.</p>
+          <p className="mt-4 text-neutral-400 text-xs">© {new Date().getFullYear()} {siteConfig.shortName}. All rights reserved.</p>
         </div>
       </div>
     </footer>

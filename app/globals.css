@@ -14,7 +14,8 @@ html { scroll-behavior: smooth; }
 
 /* Luxury typography feel */
 h1, h2, h3 { @apply font-serif; }
-p, li { @apply text-neutral-800; }
+body { @apply bg-black text-white; }
+p, li { @apply text-neutral-200; }
 
 /* Focus ring */
 :focus-visible {

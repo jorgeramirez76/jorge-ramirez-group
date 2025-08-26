@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { agentSchema } from '@/lib/seo/schema';
 import type { ReactNode } from 'react';
 import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
@@ -15,9 +16,13 @@ export const metadata: Metadata = {
   },
   description:
     'Trusted New Jersey real estate—Union, Morris, Essex, Hudson, and Middlesex counties.',
+  keywords: ['New Jersey real estate', 'Union County homes', 'NJ realtor'],
   openGraph: { type: 'website', siteName: 'The Jorge Ramirez Group', locale: 'en_US' },
   twitter: { card: 'summary_large_image' },
-  robots: { index: true, follow: true }
+  robots: { index: true, follow: true },
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -27,6 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className={inter.className}>
         <SiteHeader />
         {children}
+        <SiteFooter />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(agentSchema(site)) }}
