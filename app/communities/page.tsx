@@ -10,7 +10,7 @@ export default function Communities() {
         {COUNTIES.map((c) => (
           <li key={c.slug}>
             <a
-              className="block rounded-md border border-gray-200 bg-white p-7"
+              className="block rounded-md border border-white/10 bg-neutral-900 p-7 text-white"
               href={`/communities/${c.slug}`}
             >
               {c.name}

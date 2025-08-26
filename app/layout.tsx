@@ -15,9 +15,13 @@ export const metadata: Metadata = {
   },
   description:
     'Trusted New Jersey real estate—Union, Morris, Essex, Hudson, and Middlesex counties.',
+  keywords: ['New Jersey real estate', 'Union County homes', 'NJ realtor'],
   openGraph: { type: 'website', siteName: 'The Jorge Ramirez Group', locale: 'en_US' },
   twitter: { card: 'summary_large_image' },
-  robots: { index: true, follow: true }
+  robots: { index: true, follow: true },
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

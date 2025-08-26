@@ -10,9 +10,9 @@ export function Button({ className, variant="primary", size="md", ...props }: Pr
   const variants = {
     primary: "bg-brand-black text-white hover:opacity-90",
     secondary: "bg-brand-red text-white hover:opacity-95",
-    outline: "border border-black text-black hover:bg-black hover:text-white",
+    outline: "border border-white text-white hover:bg-white hover:text-black",
     outlineLight: "border border-white text-white hover:bg-white hover:text-black",
-    ghost: "text-black hover:bg-neutral-100"
+    ghost: "text-white hover:bg-neutral-800"
   };
   const sizes = { sm: "text-sm", md: "text-base", lg: "text-lg" };
   return <button className={clsx(base, variants[variant], sizes[size], className)} {...props} />;

@@ -18,7 +18,7 @@ export default async function ListingsPage() {
           {listings.map((l) => (
             <li
               key={l.id}
-              className="overflow-hidden rounded-lg border border-gray-200 bg-white"
+              className="overflow-hidden rounded-lg border border-white/10 bg-neutral-900"
             >
               <a href={l.url ?? `/contact?interest=${encodeURIComponent(l.address)}`}>
                 <Image

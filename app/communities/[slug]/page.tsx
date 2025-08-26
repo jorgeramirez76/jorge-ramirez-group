@@ -18,7 +18,7 @@ export default function CommunityPage({ params }: { params: { slug: string } }) 
           {towns.map((t) => (
             <li key={t.slug}>
               <a
-                className="block rounded-md border border-gray-200 bg-white p-5"
+                className="block rounded-md border border-white/10 bg-neutral-900 p-5 text-white"
                 href={`/communities/${t.slug}`}
               >
                 {t.name}
